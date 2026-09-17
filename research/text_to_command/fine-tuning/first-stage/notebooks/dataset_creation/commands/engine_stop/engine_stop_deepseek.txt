@@ -1,0 +1,100 @@
+Shut off the engine.
+Stop the engine.
+Shut down the engine.
+Turn off the engine now.
+Power down the engine.
+Kill the engine.
+Cut the engine.
+Disengage the engine.
+Deactivate the engine.
+Engine off.
+Switch off the engine.
+Terminate engine operation.
+Cease engine function.
+Halt the engine.
+Engine shutdown.
+Stop the motor.
+Turn the engine off.
+Shut the engine down.
+Power off the engine.
+Disable the engine.
+Engine stop now.
+End engine operation.
+Close down the engine.
+Engine power down.
+Shut the engine off immediately.
+Kill engine power.
+Stop engine immediately.
+Turn off the motor.
+Cut engine power.
+Engine shutdown now.
+Cease engine activity.
+Discontinue engine operation.
+Shut off the motor.
+Stop the engine at once.
+Power down the motor.
+Engine deactivation.
+Terminate the engine.
+Shut down the motor.
+Turn the motor off.
+Engine stop command.
+Disengage the motor.
+Stop all engine functions.
+Engine power off.
+Kill the motor.
+Cut the motor.
+Engine halt.
+Shut off engine systems.
+Stop engine now.
+Turn off the engine immediately.
+Power off the motor.
+Engine termination.
+Shut down engine systems.
+Disable the motor.
+Engine stop immediately.
+Cease motor function.
+Deactivate the motor.
+Engine off now.
+Switch the engine off.
+Kill engine now.
+Cut engine now.
+Shut the motor down.
+Engine stop at once.
+Power down now.
+Terminate motor operation.
+Stop the engine right now.
+Turn engine off now.
+Shut off the engine right away.
+Engine shutdown immediately.
+Disengage power to the engine.
+Cut power to the engine.
+Kill power to the engine.
+Engine stop without delay.
+Shut down the engine now.
+Turn the engine off immediately.
+Power off the engine now.
+Stop engine operation.
+Engine deactivate now.
+Discontinue the engine.
+Shut off engine power.
+Engine stop command now.
+Halt engine immediately.
+Cease engine now.
+Terminate the engine now.
+Shut the engine off at once.
+Power down the engine immediately.
+Disable the engine now.
+Engine off command.
+Switch off the engine now.
+Kill the engine now.
+Cut the engine immediately.
+Shut down the engine right now.
+Turn off the engine at once.
+Engine stop right away.
+Power off the engine immediately.
+Stop the engine without delay.
+Shut off the engine immediately.
+Engine shutdown right now.
+Deactivate the engine now.
+Halt the engine now.
+Terminate engine now.

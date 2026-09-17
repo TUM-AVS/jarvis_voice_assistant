@@ -1,0 +1,129 @@
+--- Synonym Replacement ---
+Entering the pits this lap.
+Going into the pits this lap.
+Coming into the pit area this lap.
+Approaching the pit lane this lap.
+Heading to the pits this lap.
+Driving into the pits this lap.
+
+Box this lap.
+Come to the box this lap.
+Call the box this lap.
+
+Pitlane drive through.
+Drive through the pitlane.
+Pit lane drive through.
+Proceed through the pitlane.
+Drive through the pits.
+Drive through pit lane.
+
+Heading into the pitlane now.
+Moving into the pitlane now.
+Currently heading into the pitlane.
+Entering the pitlane now.
+Approaching the pitlane now.
+Driving into the pitlane now.
+
+Proceed to the pits this lap.
+Go to the pits this lap.
+Make your way to the pits this lap.
+Head to the pits this lap.
+Move to the pits this lap.
+Advance to the pits this lap.
+
+--- Paraphrasing ---
+Entering the pits this lap.
+You are entering the pits on this lap.
+This lap, head into the pits.
+Make your pit entry this lap.
+Plan to enter the pits this lap.
+Drive into the pits during this lap.
+
+Box this lap.
+Call into the box this lap.
+Get boxed this lap.
+Come into the box this lap.
+
+Pitlane drive through.
+You have a drive-through in the pitlane.
+Drive through the pitlane on this lap.
+Proceed with a pitlane drive-through.
+Complete a drive-through in the pitlane.
+Follow the pitlane drive-through order.
+
+Heading into the pitlane now.
+You are now heading into the pitlane.
+Approaching the pitlane at this moment.
+Currently moving into the pitlane.
+Make your way into the pitlane now.
+Start entering the pitlane now.
+
+Proceed to the pits this lap.
+Go into the pits on this lap.
+Make your way to the pits this lap.
+Head to the pits this lap without delay.
+Move toward the pits this lap.
+Advance into the pits during this lap.
+
+--- Word Reordering ---
+Entering the pits this lap.
+This lap, entering the pits.
+This lap, the pits are being entered.
+The pits are entered this lap.
+
+Box this lap.
+This lap, box.
+Box, this lap.
+Box on this lap.
+
+Pitlane drive through.
+Drive through pitlane.
+Drive through the pitlane.
+Through the pitlane drive.
+Pitlane, drive through.
+Drive through the pit lane.
+
+Heading into the pitlane now.
+Now heading into the pitlane.
+Into the pitlane now heading.
+Heading now into the pitlane.
+Now into the pitlane heading.
+
+Proceed to the pits this lap.
+This lap proceed to the pits.
+Proceed to pits this lap.
+
+--- Slight Additions ---
+Entering the pits this lap.
+You are entering the pits this lap.
+Prepare for entering the pits this lap.
+Make sure to enter the pits this lap.
+Now entering the pits this lap.
+Get ready to enter the pits this lap.
+
+Box this lap.
+Box this lap as scheduled.
+You must box this lap.
+Plan your box this lap.
+The box is scheduled this lap.
+
+Pitlane drive through.
+You have a pitlane drive through to complete.
+Follow the pitlane drive through instructions.
+Complete the drive through in the pitlane.
+Prepare for the pitlane drive through.
+The pitlane drive through is mandatory.
+
+Heading into the pitlane now.
+You are heading into the pitlane now.
+Start heading into the pitlane now.
+Make your way into the pitlane now.
+Now move into the pitlane.
+Get ready to enter the pitlane now.
+
+Proceed to the pits this lap.
+Please proceed to the pits this lap.
+Make sure to proceed to the pits this lap.
+Proceed to the pits on this lap immediately.
+You should proceed to the pits this lap.
+Advance to the pits this lap.

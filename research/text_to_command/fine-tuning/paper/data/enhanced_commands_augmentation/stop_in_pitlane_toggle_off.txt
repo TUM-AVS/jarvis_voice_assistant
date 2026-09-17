@@ -1,0 +1,97 @@
+--- Synonym Replacement ---
+Cancel the pit stop request.
+Abort the pit stop request.
+Cancel the box stop order.
+Revoke the pit stop request.
+Call off the pit stop demand.
+Nullify the pit stop request.
+
+Stay out and do not stop.
+Remain on track and don't halt.
+Continue racing and avoid stopping.
+Stay outside and refrain from stopping.
+
+Abort stop pit request.
+Cancel pit stop command.
+Revoke pit halt instruction.
+Terminate pit stop order.
+Dismiss stop request for pitting.
+
+Ignore the pit stop and keep racing.
+Disregard the pit stop and continue.
+Skip the pit stop and keep pushing.
+
+--- Paraphrasing ---
+Cancel the pit stop request.
+Call off the request for a pit stop.
+Don’t proceed with the pit stop request.
+Withdraw the pit stop instruction.
+Eliminate the current pit stop command.
+
+Stay out and do not stop.
+Remain on track without stopping.
+Do not make a stop; continue on track.
+Avoid stopping and stay out.
+
+Abort stop pit request.
+Remove the request to stop in the pit.
+Refrain from making the pit stop.
+
+Ignore the pit stop and keep racing.
+Skip the stop and maintain racing.
+Race on without stopping in the pits.
+
+--- Word Reordering ---
+Cancel the pit stop request.
+The pit stop request, cancel it.
+Request for pit stop — cancel it now.
+Cancel that request for the pit stop.
+Pit stop request: cancel it.
+Cancel request for the pit stop.
+
+Stay out and do not stop.
+Do not stop, stay out.
+Stay out — don’t stop.
+Don't stop and stay out.
+Remain outside, and don’t stop.
+
+Abort stop pit request.
+Pit stop request, abort it.
+Abort the request to stop in pits.
+Abort request for pit stop.
+Request to stop in pit — abort.
+Abort pit stop instruction.
+
+Ignore the pit stop and keep racing.
+Keep racing, ignore the pit stop.
+Ignore the stop and continue racing.
+Racing continues — ignore pit stop.
+The pit stop: ignore it, race on.
+
+--- Slight Additions ---
+Cancel the pit stop request.
+Please cancel the pit stop request immediately.
+Cancel the pit stop request for now.
+Cancel the scheduled pit stop request.
+Make sure to cancel the pit stop request.
+Go ahead and cancel the pit stop request.
+
+Stay out and do not stop.
+Stay out and do not stop under any circumstances.
+Make sure to stay out and not stop.
+Stay out on track and don’t stop now.
+Stay out there and avoid stopping.
+Stay on course and do not stop yet.
+
+Abort stop pit request.
+Abort the stop pit request before it's too late.
+Please make sure to abort the stop pit request.
+Abort the stop pit request immediately.
+Quickly abort the pit stop instruction.
+Abort the pit stop request if possible.
+
+Ignore the pit stop and keep racing.
+Simply ignore the pit stop and keep racing.
+Keep racing and just ignore the pit stop.
+For now, ignore the pit stop and continue.
+Stay in the race and forget the pit stop.

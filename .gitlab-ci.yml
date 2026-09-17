@@ -1,0 +1,34 @@
+# image: jarvis
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+    GIT_SUBMODULE_FORCE_HTTPS: "true"
+
+stages:
+    - Deploy
+
+Deploy:
+  stage: Deploy
+  script:
+      - echo "$CI_DEPLOY_PASSWORD" | docker login gitlab.lrz.de:5005 -u $CI_DEPLOY_USER --password-stdin
+      - bash docker/build_jarvis.sh ${CI_COMMIT_TAG}           
+      - docker push gitlab.lrz.de:5005/iac/jarvis:${CI_COMMIT_TAG}
+  when: on_success
+  tags:
+    - poweredge
+  only:
+    - tags
+
+DeployMain:
+  stage: Deploy
+  script:
+      - echo "$CI_DEPLOY_PASSWORD" | docker login gitlab.lrz.de:5005 -u $CI_DEPLOY_USER --password-stdin
+      - bash docker/build_jarvis.sh latest_main
+      - docker push gitlab.lrz.de:5005/iac/jarvis:latest_main
+  when: on_success
+  tags:
+    - poweredge
+  only:
+    - main
+
+

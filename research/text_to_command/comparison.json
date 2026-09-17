@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "metric_status": "Recorded notebook outputs; not rerun during packaging. Different tasks, splits and inference settings; no controlled improvement claim.",
+  "versions": {
+    "paper": {
+      "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+      "recorded_accuracy_percent": 97.62611275964392,
+      "recorded_average_processing_seconds": 1.387055191866368,
+      "lora_rank": 32,
+      "lora_alpha": 32,
+      "classes": 17,
+      "full_examples": 1645,
+      "train_examples": 1308,
+      "test_examples": 337,
+      "numeric_targets": "command, value, mode",
+      "notebook": "fine-tuning/paper/notebooks/all_request_commands_v1.0_fine_tuning.ipynb",
+      "notebook_result_cell_index": 12
+    },
+    "latest": {
+      "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+      "recorded_accuracy_percent": 99.7,
+      "recorded_average_processing_seconds": 0.713,
+      "precision_note": "Values saved to 2 decimal places (accuracy) and 4 decimal places (seconds).",
+      "lora_rank": 16,
+      "lora_alpha": 16,
+      "classes": 17,
+      "full_examples": 1645,
+      "train_examples": 1308,
+      "test_examples": 337,
+      "numeric_targets": "label only",
+      "notebook": "fine-tuning/latest/notebooks/all_request_commands_v1.0_fine_tuning.ipynb",
+      "notebook_result_cell_index": 11
+    }
+  },
+  "split_comparison": {
+    "shared_test_examples": 76,
+    "latest_test_in_paper_train": 261,
+    "paper_test_in_latest_train": 261,
+    "within_version_exact_overlap": {
+      "paper": 0,
+      "latest": 0
+    }
+  },
+  "target_comparison": {
+    "identical_full_utterance_pool": true,
+    "changed_targets": 350,
+    "affected_classes": [
+      "SPEED_REQUEST",
+      "GG_SCALE"
+    ]
+  }
+}

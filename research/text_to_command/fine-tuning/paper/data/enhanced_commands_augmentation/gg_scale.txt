@@ -1,0 +1,141 @@
+--- Synonym Replacement ---
+Reducing gg-scale to zero point twenty-three, 0.23, DECREASE
+Lowering gg-scale to point forty-seven, 0.47, DECREASE
+Decreasing gg-scale to zero point twelve, 0.12, DECREASE
+Cutting gg-scale down to point seventy-five, 0.75, DECREASE
+Dropping gg-scale to zero point thirty-six, 0.36, DECREASE
+Scaling down gg-scale to point fifty-nine, 0.59, DECREASE
+
+Increasing gg-scale to point eighty-one, 0.81, INCREASE
+Raising gg-scale to zero point twenty-seven, 0.27, INCREASE
+Boosting gg-scale to point sixty-eight, 0.68, INCREASE
+Upping gg-scale to zero point forty-three, 0.43, INCREASE
+Enhancing gg-scale to point ninety, 0.90, INCREASE
+Scaling up gg-scale to zero point fifteen, 0.15, INCREASE
+
+Please set the gg scale to point fifty-four, 0.54, CHANGE
+Kindly set gg scale to zero point eighty-two, 0.82, CHANGE
+Adjust gg scale to point thirty-three, please, 0.33, CHANGE
+Set gg scale at zero point sixty-one, please, 0.61, CHANGE
+Make sure to set gg scale to point seventy-four, 0.74, CHANGE
+Request to set gg scale to zero point nineteen, 0.19, CHANGE
+
+Adjusting gg-scale to point forty-eight, 0.48, CHANGE
+Modifying gg-scale to zero point eighty-eight, 0.88, CHANGE
+Changing gg-scale to point thirty-nine, 0.39, CHANGE
+Updating gg-scale to zero point seven, 0.07, CHANGE
+Tweaking gg-scale to point fifty-three, 0.53, CHANGE
+Setting gg-scale at zero point sixty-four, 0.64, CHANGE
+
+Setting gg-scale to point seventy-nine, 0.79, CHANGE
+Configuring gg-scale to zero point twenty-six, 0.26, CHANGE
+Applying gg-scale to point fifty-eight, 0.58, CHANGE
+Assigning gg-scale to zero point thirty-four, 0.34, CHANGE
+Fixing gg-scale to point ninety-one, 0.91, CHANGE
+Putting gg-scale at zero point forty-two, 0.42, CHANGE
+
+--- Paraphrasing ---
+Reducing gg-scale to point seventeen, 0.17, DECREASE
+The gg-scale is being reduced to zero point forty-four, 0.44, DECREASE
+Lower gg-scale now to point twenty-nine, 0.29, DECREASE
+Decrease gg-scale down to zero point sixty-three, 0.63, DECREASE
+Reduce gg-scale setting to point twenty-two, 0.22, DECREASE
+Cut gg-scale to zero point eighty-five, 0.85, DECREASE
+
+Increasing gg-scale to zero point seventy, 0.70, INCREASE
+The gg-scale is increasing to point eleven, 0.11, INCREASE
+Raise gg-scale setting to zero point fifty-five, 0.55, INCREASE
+Increase gg-scale value to point thirty-five, 0.35, INCREASE
+Boost gg-scale up to zero point ninety, 0.90, INCREASE
+Set gg-scale higher at point forty, 0.40, INCREASE
+
+Please set the gg scale to zero point sixty, 0.60, CHANGE
+Kindly adjust gg scale to point fourteen, 0.14, CHANGE
+Set gg scale to zero point seventy-seven now, 0.77, CHANGE
+Please update gg scale to point twenty-five, 0.25, CHANGE
+Make gg scale zero point eighty-two, please, 0.82, CHANGE
+Request gg scale set to point thirty-seven, 0.37, CHANGE
+
+Adjusting gg-scale to zero point sixty-eight, 0.68, CHANGE
+Modifying the gg-scale to point thirty-one now, 0.31, CHANGE
+Change gg-scale setting to zero point fifty-four, 0.54, CHANGE
+Updating gg-scale value to point sixteen, 0.16, CHANGE
+Adjust gg-scale to zero point ninety immediately, 0.90, CHANGE
+Set gg-scale at point forty-five, 0.45, CHANGE
+
+Setting gg-scale to zero point twenty-four, 0.24, CHANGE
+Configure gg-scale to point seventy-six now, 0.76, CHANGE
+Apply gg-scale value zero point thirty-two, 0.32, CHANGE
+Set gg-scale level at point eighty-seven, 0.87, CHANGE
+Assign gg-scale to zero point thirteen, 0.13, CHANGE
+Make gg-scale point fifty-one, 0.51, CHANGE
+
+--- Word Reordering ---
+Reducing gg-scale to point fifty-six, 0.56, DECREASE
+Reduce to zero point sixty-two gg-scale, 0.62, DECREASE
+Gg-scale reducing to point nineteen, 0.19, DECREASE
+To zero point eighty-one reducing gg-scale, 0.81, DECREASE
+Gg-scale to point twenty-eight reducing, 0.28, DECREASE
+
+Increasing gg-scale to zero point fifty, 0.50, INCREASE
+Increase to point seventy gg-scale, 0.70, INCREASE
+Gg-scale increasing to zero point seventeen, 0.17, INCREASE
+To point forty-seven increasing gg-scale, 0.47, INCREASE
+Gg-scale to zero point sixty-eight increasing, 0.68, INCREASE
+
+Please set the gg scale to zero point forty-three, 0.43, CHANGE
+Set to point ninety-two the gg scale please, 0.92, CHANGE
+Gg scale set to zero point fifty-eight please, 0.58, CHANGE
+Please set gg scale to point thirty-six, 0.36, CHANGE
+Set gg scale to zero point eighty-five please, 0.85, CHANGE
+To point twelve set gg scale please, 0.12, CHANGE
+
+Adjusting gg-scale to zero point seventy-two, 0.72, CHANGE
+Adjust to point twenty-nine gg-scale, 0.29, CHANGE
+Gg-scale adjusting to zero point sixty-four, 0.64, CHANGE
+To point forty-nine adjusting gg-scale, 0.49, CHANGE
+Gg-scale to zero point thirty-three adjusting, 0.33, CHANGE
+Point seventy-five adjusting gg-scale to, 0.75, CHANGE
+
+Setting gg-scale to zero point twenty-seven, 0.27, CHANGE
+Set to point ninety gg-scale, 0.90, CHANGE
+Gg-scale setting to zero point forty, 0.40, CHANGE
+To point fifty-three setting gg-scale, 0.53, CHANGE
+Gg-scale to zero point eleven setting, 0.11, CHANGE
+Point seventy-eight setting gg-scale to, 0.78, CHANGE
+
+--- Slight Additions ---
+Reducing gg-scale to point thirty-five, 0.35, DECREASE
+Please reduce the gg-scale to zero point sixty-three, 0.63, DECREASE
+Reducing gg-scale now to point twenty-two, 0.22, DECREASE
+Make sure to reduce gg-scale to zero point eighty-six, 0.86, DECREASE
+Reducing the gg-scale setting to point eighteen, 0.18, DECREASE
+Reduce gg-scale carefully to zero point forty-one, 0.41, DECREASE
+
+Increasing gg-scale to zero point seventy-nine, 0.79, INCREASE
+Please increase the gg-scale to point forty-nine, 0.49, INCREASE
+Increasing gg-scale now to zero point twenty-five, 0.25, INCREASE
+Make sure to increase gg-scale to point ninety-four, 0.94, INCREASE
+Increase the gg-scale setting to zero point thirty-three, 0.33, INCREASE
+Increase gg-scale carefully to point fifty-seven, 0.57, INCREASE
+
+Please set the gg scale to zero point sixty-six, 0.66, CHANGE
+Kindly set the gg scale to point ten, 0.10, CHANGE
+Please set gg scale immediately to zero point seventy-one, 0.71, CHANGE
+Make sure to set the gg scale to point forty-eight, 0.48, CHANGE
+Set the gg scale carefully to zero point eighty-three, 0.83, CHANGE
+Set gg scale now to point twenty, 0.20, CHANGE
+
+Adjusting gg-scale to zero point sixty, 0.60, CHANGE
+Please adjust the gg-scale to point twenty-eight, 0.28, CHANGE
+Adjusting gg-scale now to zero point ninety, 0.90, CHANGE
+Make sure to adjust gg-scale to point forty-three, 0.43, CHANGE
+Adjust the gg-scale setting to zero point sixty-seven, 0.67, CHANGE
+Adjust gg-scale carefully to point fourteen, 0.14, CHANGE
+
+Setting gg-scale to zero point seventy-four, 0.74, CHANGE
+Please set the gg-scale to point thirty-eight, 0.38, CHANGE
+Setting gg-scale now to zero point fifty-three, 0.53, CHANGE
+Make sure to set gg-scale to point eighty-seven, 0.87, CHANGE
+Set the gg-scale carefully to point thirty, 0.30, CHANGE
+Set gg-scale now to zero point ninety-five, 0.95, CHANGE

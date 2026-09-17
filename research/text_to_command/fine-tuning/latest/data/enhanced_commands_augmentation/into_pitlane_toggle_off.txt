@@ -1,0 +1,116 @@
+--- Synonym Replacement ---
+Staying out on track.
+Remaining on track.
+Holding position on track.
+Keeping on the track.
+Not entering the pits, staying out.
+
+Pit entry request canceled.
+Pit entry request revoked.
+Canceled the pit entry request.
+Pit entry demand withdrawn.
+Request for pit entry is canceled.
+Pit entry order has been canceled.
+
+Continuing without pitting.
+Proceeding without pitting.
+Keeping racing without entering pits.
+Moving forward without pitting.
+
+Abort pitlane drive through.
+Cancel the pitlane drive through.
+Drive through in pitlane aborted.
+Abort the drive through in pit lane.
+Terminate pitlane drive through request.
+
+No pit entry this lap.
+No entry to pits this lap.
+Not entering pits this lap.
+Skipping pit entry this lap.
+Pit entry will not happen this lap.
+
+--- Paraphrasing ---
+Staying out on track.
+Remain on track and do not pit.
+Keep racing on the track.
+Continue driving without entering the pits.
+Hold your position on track.
+
+Pit entry request canceled.
+The pit entry request has been canceled.
+Cancel the request to enter the pitlane.
+Abort the pit entry request.
+Withdraw the pit entry request.
+Do not proceed with pit entry.
+
+Continuing without pitting.
+Keep going without pitting.
+Do not pit, keep racing.
+Carry on without entering the pits.
+
+Abort pitlane drive through.
+Cancel the drive through in the pitlane.
+Abort the pitlane drive through instruction.
+Do not perform the pitlane drive through.
+Drive through in pitlane is aborted.
+
+No pit entry this lap.
+There will be no pit entry this lap.
+Skip pit entry on this lap.
+Do not enter pits this lap.
+Pit entry is not happening this lap.
+
+--- Word Reordering ---
+Staying out on track.
+
+Pit entry request canceled.
+Request for pit entry canceled.
+Canceled request for pit entry.
+Canceled pit entry request.
+
+Continuing without pitting.
+Without pitting continuing.
+
+Abort pitlane drive through.
+Abort through pitlane drive.
+Pitlane drive through abort.
+Through pitlane drive abort.
+
+No pit entry this lap.
+This lap no pit entry.
+No pit entry this lap.
+Pit entry no this lap.
+
+--- Slight Additions ---
+Staying out on track.
+Please stay out on track.
+Stay out on track for now.
+Make sure to stay out on track.
+Remain on track without pitting.
+Hold your position on track.
+
+Pit entry request canceled.
+The pit entry request has been canceled.
+Please cancel the pit entry request.
+Pit entry request is now canceled.
+Do not enter pits, request canceled.
+Cancel the pit entry request immediately.
+
+Continuing without pitting.
+Keep continuing without pitting.
+Continue racing without pitting.
+Make sure to continue without pitting.
+Continue on track without pitting.
+
+Abort pitlane drive through.
+Please abort the pitlane drive through.
+Abort the pitlane drive through now.
+Cancel the pitlane drive through instruction.
+Do not follow the pitlane drive through.
+
+No pit entry this lap.
+There is no pit entry this lap.
+Please note, no pit entry this lap.
+No pit entry will happen this lap.
+Do not enter pits this lap.
+Pit entry is canceled for this lap.

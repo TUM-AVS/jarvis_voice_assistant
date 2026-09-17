@@ -1,0 +1,128 @@
+--- Synonym Replacement ---
+Joystick mode is on.
+Joystick mode is enabled.
+Joystick mode activated.
+Joystick mode engaged.
+Joystick mode switched on.
+Joystick mode turned on.
+
+Switch to manual mode.
+Change to manual mode.
+Shift to manual mode.
+Toggle to manual mode.
+Move to manual mode.
+Flip to manual mode.
+
+Joystick control activated.
+Joystick control enabled.
+Joystick control turned on.
+Joystick control engaged.
+Joystick control switched on.
+Joystick control is active.
+
+Manual mode engaged.
+Manual mode activated.
+Manual mode enabled.
+Manual mode switched on.
+Manual mode turned on.
+Manual mode is active.
+
+Switching to joystick control.
+Changing to joystick control.
+Moving to joystick control.
+Shifting to joystick control.
+Switch over to joystick control.
+Transitioning to joystick control.
+
+--- Paraphrasing ---
+Joystick mode is on.
+The joystick mode has been turned on.
+Joystick mode is now active.
+Joystick mode is currently enabled.
+Joystick mode is engaged.
+Joystick mode has been activated.
+
+Switch to manual mode.
+Please switch over to manual mode.
+Change your control to manual mode.
+Shift into manual mode now.
+Move to manual mode immediately.
+Toggle control to manual mode.
+
+Joystick control activated.
+Joystick control has been activated.
+Joystick control is now enabled.
+Joystick control mode has started.
+Joystick control is turned on.
+Joystick control is now in use.
+
+Manual mode engaged.
+Manual mode has been engaged.
+Manual mode is now active.
+Manual mode has been turned on.
+Manual mode is enabled.
+Manual mode is currently active.
+
+Switching to joystick control.
+Now switching to joystick control.
+Transitioning to joystick control mode.
+Changing to joystick control now.
+Moving control to joystick mode.
+Switch over to joystick control.
+
+--- Word Reordering ---
+Joystick mode is on.
+Mode joystick is on.
+
+Switch to manual mode.
+To manual mode switch.
+
+Joystick control activated.
+Control joystick activated.
+Activated joystick control.
+Activated control joystick.
+
+Manual mode engaged.
+Engaged manual mode.
+Engaged mode manual.
+
+Switching to joystick control.
+To joystick control switching.
+Control switching to joystick.
+Switching control to joystick.
+
+--- Slight Additions ---
+Joystick mode is on.
+Joystick mode is now on.
+Joystick mode is currently on.
+Joystick mode is switched on.
+Joystick mode is fully enabled.
+Joystick mode is active now.
+
+Switch to manual mode.
+Please switch to manual mode.
+Switch to manual mode now.
+Change over to manual mode.
+Switch your control to manual mode.
+Make sure to switch to manual mode.
+
+Joystick control activated.
+Joystick control has been activated now.
+Joystick control is fully activated.
+Joystick control is currently active.
+Joystick control has been turned on.
+Joystick control is engaged now.
+
+Manual mode engaged.
+Manual mode is now engaged.
+Manual mode has been engaged fully.
+Manual mode is currently active.
+Manual mode is switched on.
+Manual mode is enabled now.
+
+Switching to joystick control.
+Switching to joystick control now.
+Now switching to joystick control.
+Changing over to joystick control.
+Make sure to switch to joystick control.
+Transitioning to joystick control now.

@@ -1,0 +1,143 @@
+--- Synonym Replacement ---
+Speed control by race control is disabled.
+Race control's speed control is turned off.
+Race control is no longer regulating speed.
+The speed is no longer managed by race control.
+Speed control from race control is deactivated.
+Race control speed management has been disabled.
+
+Driver controls the speed manually.
+Speed is managed manually by the driver.
+The driver is now handling speed control.
+Manual control of speed is by the driver.
+Driver now adjusts speed manually.
+Speed is now under the driver’s control.
+
+Race control speed restrictions are lifted.
+Speed rules from race control have been removed.
+Race control limits have been lifted.
+Restrictions on speed by race control are gone.
+No more speed regulation by race control.
+Race control's limits are now inactive.
+
+Adhere to our speed targets.
+Follow our designated speed goals.
+Stick to the speed levels we’ve set.
+Maintain our specified speed rates.
+Comply with our outlined speed targets.
+Keep within our defined speed values.
+
+Switch to basestation speed limits.
+Switch to base station speed limits.
+Use the speed limits set by the base station.
+Activate basestation-regulated speed.
+Base station limits are now in effect.
+Change to basestation-defined speed rules.
+
+--- Paraphrasing ---
+Speed control by race control is disabled.
+Race control is no longer in charge of speed.
+There’s no speed regulation from race control anymore.
+The authority for speed is removed from race control.
+Race control won’t manage speed any longer.
+Speed adjustments are no longer made by race control.
+
+Driver controls the speed manually.
+The driver is responsible for managing speed.
+All speed decisions are now up to the driver.
+Manual speed handling is in the driver’s hands.
+The driver decides the speed manually now.
+It’s the driver’s job to control speed directly.
+
+Race control speed restrictions are lifted.
+There are no more speed limits from race control.
+Race control’s speed caps have been removed.
+Any race control-imposed speed restrictions are off.
+Speed limits by race control are no longer valid.
+Speed rules from race control don’t apply anymore.
+
+Adhere to our speed targets.
+Stay within the speed targets we define.
+Drive according to the set speed objectives.
+Follow the speed expectations we've laid out.
+Stick to our prescribed speed range.
+Abide by the speed targets as instructed.
+
+Switch to basestation speed limits.
+Change to the basestation's speed restrictions.
+Move to speed regulation from the basestation.
+Use the limits assigned by the basestation.
+Obey basestation-set speed values.
+Switch your speed control to the basestation's settings.
+
+--- Word Reordering ---
+Speed control by race control is disabled.
+Disabled is speed control by race control.
+By race control, speed control is now off.
+Race control: speed control disabled.
+The speed control, disabled by race control.
+Race control disabled speed control.
+
+Driver controls the speed manually.
+The speed is controlled manually by the driver.
+Manually, the driver controls speed.
+Speed is under manual control of the driver.
+Controlled manually is the speed by the driver.
+Driver manually manages speed.
+
+Race control speed restrictions are lifted.
+Speed restrictions by race control are now lifted.
+Lifted are the race control speed restrictions.
+Restrictions from race control — lifted now.
+Speed limits are lifted by race control.
+Race control has lifted the speed caps.
+
+Adhere to our speed targets.
+Our speed targets — adhere to them.
+Speed targets: adhere to ours.
+Stick to our speed targets.
+Adhere to the speed targets we set.
+To our speed targets, adhere.
+
+Switch to basestation speed limits.
+To basestation speed limits, switch.
+Switch speed limits to basestation mode.
+Basestation speed limits — switch to them.
+Speed limits from basestation — enable now.
+Change over to basestation-defined speed.
+
+--- Slight Additions ---
+Speed control by race control is disabled.
+Speed control by race control is now disabled completely.
+Please note: race control speed handling is turned off.
+Currently, race control does not manage speed.
+The system has disabled race control speed control.
+Race control speed management is not active now.
+
+Driver controls the speed manually.
+The driver is now solely controlling speed.
+Currently, speed must be handled by the driver.
+Manual speed control is active for the driver.
+Driver takes full responsibility for speed.
+Driver is in charge of speed adjustment.
+
+Race control speed restrictions are lifted.
+All race control speed restrictions have been lifted.
+Speed limits by race control are officially removed.
+Currently, no race control limits apply.
+Race control has suspended speed restrictions.
+All previous limits from race control are gone.
+
+Adhere to our speed targets.
+Make sure to adhere to our speed targets.
+Our speed targets must now be followed.
+Drivers should strictly follow our speed goals.
+Currently, use our defined speed levels.
+Please stick to our current speed limits.
+
+Switch to basestation speed limits.
+Immediately switch to basestation speed limits.
+Speed limits must now come from the basestation.
+Please activate basestation speed settings.
+Switch your system to basestation-defined speed.
+From now on, use speed limits from the basestation.

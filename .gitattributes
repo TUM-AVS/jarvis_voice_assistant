@@ -1,0 +1,2 @@
+# Both versioned adapters must be uploaded through Git LFS in a fresh repository.
+*.safetensors filter=lfs diff=lfs merge=lfs -text

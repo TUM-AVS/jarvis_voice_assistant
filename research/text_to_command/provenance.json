@@ -1,0 +1,2263 @@
+{
+  "schema_version": 3,
+  "description": "Shared identical data/prompts stored once; version-specific splits preserved. Path-only source changes are reversible and recorded per artifact.",
+  "files": [
+    {
+      "path": "fine-tuning/first-stage/common.py",
+      "sha256": "9b92328728363162c4718333e4e313da66a680e8e492a99ae2e699f89fc87fed",
+      "bytes": 10484,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/common.py",
+          "git_blob": "681f588eaed4d440f82ae1e233e5d1fca47763d8"
+        }
+      ],
+      "original_sha256": "021205ae6b20dd75d72b40a67d252240a4d8015f4a46ef86f3c23fca14ba9806",
+      "original_bytes": 10443,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "with open('../data/prompt_template_1.txt') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt')) as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_1.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_2.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_2.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_3.txt')",
+          "after": "os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'paper', 'prompt_template_3.txt')",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_1.txt'",
+          "after": "'shared', 'prompt_template_1.txt'",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_2.txt'",
+          "after": "'shared', 'prompt_template_2.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'paper', 'prompt_template_3.txt'",
+          "after": "'shared', 'prompt_template_3_paper.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompt_template_3_paper.txt'",
+          "after": "'shared', 'paper', 'prompt_template_3.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'prompt_template_",
+          "after": "'data', 'prompt_template_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'paper', 'prompt_template_3.txt'",
+          "after": "'data', 'prompt_template_3.txt'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/basic_commands_test_v2.0.json",
+      "sha256": "5fb534beac8f9edcfa67841326ae395ba2fd1ea6d59df82c72cdd708f45bd1cc",
+      "bytes": 20010,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/basic_commands_test_v2.0.json",
+          "git_blob": "d820b53b5087fdb9ffd44c3e883828221939b552"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/basic_commands_test_v2.0.json",
+          "git_blob": "d820b53b5087fdb9ffd44c3e883828221939b552"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/basic_commands_train_v2.0.json",
+      "sha256": "48ac267367dfdd74abec3f686d4538a499a299ca54f5061a4c97200b9951f2ea",
+      "bytes": 79350,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/basic_commands_train_v2.0.json",
+          "git_blob": "e9c7db35b697581138d8bdb1fb39e654bb422ad2"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/basic_commands_train_v2.0.json",
+          "git_blob": "e9c7db35b697581138d8bdb1fb39e654bb422ad2"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/basic_commands_v2.0.json",
+      "sha256": "6406c288d6508a6073535b930fa47bd15187d131ca40622f316fed5a9db05b26",
+      "bytes": 99212,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/basic_commands_v2.0.json",
+          "git_blob": "83a6139bb3ddde9de5d1e61499293afa2647a818"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/basic_commands_v2.0.json",
+          "git_blob": "83a6139bb3ddde9de5d1e61499293afa2647a818"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/prompt_template_1.txt",
+      "sha256": "2adc1b1a8980d6f946356ad6604341bf3c4f08a187c94001f0c790182b69f107",
+      "bytes": 3221,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/prompt_template_2.txt",
+      "sha256": "9b69a8825e2ce245599e5de2b76feaf1cdbb4736879c110b9fb466682194f76b",
+      "bytes": 2468,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/data/prompt_template_3.txt",
+      "sha256": "f8e62cbcfccf706deb6daa4ee88020eb8c6f5cd91494a967ba0441a1dd1a2c18",
+      "bytes": 2285,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_3.txt",
+          "git_blob": "e444ab29e713e7e9a53a25ebb8a684776d0e39ba"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/basic_commands_v2.0_fine_tuning.ipynb",
+      "sha256": "8c1b55b58775932893968c31b4cbc24f2de3bf22f2e6f4bec51961455c3a63bb",
+      "bytes": 575247,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/basic_commands_v2.0_fine_tuning.ipynb",
+          "git_blob": "6ccc322f4cf49c5a3c2161a2dbe0f92ff3b875f3"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/basic_commands_v2.0_fine_tuning.ipynb",
+          "git_blob": "6ccc322f4cf49c5a3c2161a2dbe0f92ff3b875f3"
+        }
+      ],
+      "original_sha256": "8c1b55b58775932893968c31b4cbc24f2de3bf22f2e6f4bec51961455c3a63bb",
+      "original_bytes": 575247,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_",
+          "after": "../../../shared/data/first-stage/basic_commands_",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/first-stage/basic_commands_test_v2.0.json",
+          "after": "shared/basic_commands_test_v2.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/first-stage/basic_commands_train_v2.0.json",
+          "after": "shared/basic_commands_train_v2.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../shared/basic_commands_",
+          "after": "../data/basic_commands_",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/basic_commands_v2.0_dataset_creation.ipynb",
+      "sha256": "beac4bf0095fe022df74c86f8383d785ea392daaa87df771a35985d1ec7fa43a",
+      "bytes": 47464,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/basic_commands_v2.0_dataset_creation.ipynb",
+          "git_blob": "9a9e324410139784194619d4d8637a9bf2ab1faa"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/basic_commands_v2.0_dataset_creation.ipynb",
+          "git_blob": "9a9e324410139784194619d4d8637a9bf2ab1faa"
+        }
+      ],
+      "original_sha256": "fd65ca531b8dba9a49d9b75c86ddd134087ab089182064c65ff7bae07c7f0d41",
+      "original_bytes": 47400,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../basic_commands_",
+          "after": "../../../../shared/data/first-stage/basic_commands_",
+          "count": 8
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/first-stage/basic_commands_test_v2.0.json",
+          "after": "shared/basic_commands_test_v2.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/first-stage/basic_commands_train_v2.0.json",
+          "after": "shared/basic_commands_train_v2.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/first-stage/basic_commands_v2.0.json",
+          "after": "shared/basic_commands_v2.0.json",
+          "count": 6
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../../shared/basic_commands_",
+          "after": "../../data/basic_commands_",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/crank_request/crank_request_chatgpt.txt",
+      "sha256": "e7a0acb082b281bd28efb7434cdb09f473429a7e2b369cf61b7d47ffca2ecf57",
+      "bytes": 2359,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/crank_request/crank_request_chatgpt.txt",
+          "git_blob": "4071e3d258495393718a9bc3e613a8f2b132e29b"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/crank_request/crank_request_chatgpt.txt",
+          "git_blob": "4071e3d258495393718a9bc3e613a8f2b132e29b"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/crank_request/crank_request_deepseek.txt",
+      "sha256": "3e47dbd1ac926f009be3e02d5f36967d1fc8b01139e771da5518deb338cf3960",
+      "bytes": 2856,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/crank_request/crank_request_deepseek.txt",
+          "git_blob": "751b1702fb596a58271e000e841482ec6c3a75da"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/crank_request/crank_request_deepseek.txt",
+          "git_blob": "751b1702fb596a58271e000e841482ec6c3a75da"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/engine_start/engine_start_chatgpt.txt",
+      "sha256": "b3463f206130bf979488650d57a20458db1a3602e78e44784714c1d494f9b037",
+      "bytes": 961,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_start/engine_start_chatgpt.txt",
+          "git_blob": "3d4f9cb7674fddddff345bde55704b2e90ae0576"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_start/engine_start_chatgpt.txt",
+          "git_blob": "3d4f9cb7674fddddff345bde55704b2e90ae0576"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/engine_start/engine_start_deepseek.txt",
+      "sha256": "8c73533f3645d55d21f5387a043ae3d5dc50a69366c60bb99bd78111f5b7e5b8",
+      "bytes": 731,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_start/engine_start_deepseek.txt",
+          "git_blob": "8f7871985bc77934e44bb0396f1ac27a11be9c59"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_start/engine_start_deepseek.txt",
+          "git_blob": "8f7871985bc77934e44bb0396f1ac27a11be9c59"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/engine_stop/engine_stop_chatgpt.txt",
+      "sha256": "14e97800861666c057b6cf06ebccb45829c583581ffa041321de32bdf9daaaa2",
+      "bytes": 2334,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_stop/engine_stop_chatgpt.txt",
+          "git_blob": "94ba8f14246dc4fe9d3e7ec911e4b722117b5867"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_stop/engine_stop_chatgpt.txt",
+          "git_blob": "94ba8f14246dc4fe9d3e7ec911e4b722117b5867"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/engine_stop/engine_stop_deepseek.txt",
+      "sha256": "f6353cd7bb38eb7e03ecbbf31c1a4955d5a6615128e0ee8d4f9c349ee528e232",
+      "bytes": 2299,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_stop/engine_stop_deepseek.txt",
+          "git_blob": "224f2b96d23e5e513e81cd2f49aa71285f819c94"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/engine_stop/engine_stop_deepseek.txt",
+          "git_blob": "224f2b96d23e5e513e81cd2f49aa71285f819c94"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/start/start_chatgpt.txt",
+      "sha256": "46e4a6a73f7f9de22964fa8c23d708219577b59836f8e56dd5b6fbc9ce84ec37",
+      "bytes": 1208,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/start/start_chatgpt.txt",
+          "git_blob": "602ff751dac11cc30d9772176eb0479a2d5ec53b"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/start/start_chatgpt.txt",
+          "git_blob": "602ff751dac11cc30d9772176eb0479a2d5ec53b"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/start/start_deepseek.txt",
+      "sha256": "99507a2ad1f7fe2324cee5c3a9663da8199d036d14ab07ab997edbde875077c5",
+      "bytes": 1273,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/start/start_deepseek.txt",
+          "git_blob": "5f2e37b887bd2c6c91cff5686ffcb511d0c74a32"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/start/start_deepseek.txt",
+          "git_blob": "5f2e37b887bd2c6c91cff5686ffcb511d0c74a32"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/stop/stop_chatgpt.txt",
+      "sha256": "4b1900ea50e44a41b53eaa456a946a846341a345bb7c675ef7500c42a50af7e0",
+      "bytes": 1579,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/stop/stop_chatgpt.txt",
+          "git_blob": "e4dac1016a3495cec4cd66c19029020b7381c989"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/stop/stop_chatgpt.txt",
+          "git_blob": "e4dac1016a3495cec4cd66c19029020b7381c989"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/first-stage/notebooks/dataset_creation/commands/stop/stop_deepseek.txt",
+      "sha256": "922cc834c358a143284e205bc701a14b24c064a589ac8d63127248d4522fc6ab",
+      "bytes": 2049,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/commands/stop/stop_deepseek.txt",
+          "git_blob": "ef92a9b7be9ee2ff62d79019228738e32ef3062b"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/commands/stop/stop_deepseek.txt",
+          "git_blob": "ef92a9b7be9ee2ff62d79019228738e32ef3062b"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/adapter_config.json",
+      "sha256": "aa5c1c9703695e44dfbad291443830b66ac91541848b05c223b0dc4d54093ff9",
+      "bytes": 942,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/adapter_config.json",
+          "git_blob": "ddb22e26f1adf1a3ee175d47e6ed0266cccdd648"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/adapter_model.safetensors",
+      "sha256": "e8b0451b31426961b003d81199c89b480b91653cbea20775945d79643c3aa7eb",
+      "bytes": 167832240,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/adapter_model.safetensors",
+          "git_blob": "c385909298fad4cfb1e3439282c3b9613b903575"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/chat_template.jinja",
+      "sha256": "841482ed546f37521d6286ba03f0f1829d85c9e0f83d7bcd49e61ea4fb8cb693",
+      "bytes": 1393,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/chat_template.jinja",
+          "git_blob": "49e3d691423781aa263700b93a57bfce973317b4"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/special_tokens_map.json",
+      "sha256": "45187dad192cfa8e55bbc491417657bca8c74cb2b4582178fa5978a23cfc56fc",
+      "bytes": 560,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/special_tokens_map.json",
+          "git_blob": "980a210e54a39f53a5bbfbf85adc588413cdb90e"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/tokenizer.json",
+      "sha256": "60c3fc985cbfedcb429d05994efe548bdfecd6a00226fcdc8380c36fd894a3be",
+      "bytes": 3671968,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer.json",
+          "git_blob": "da28944e01470eb8a1b3c9a1663212d0a1af24cf"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/tokenizer.model",
+      "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+      "bytes": 587404,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer.model",
+          "git_blob": "d8233e5b061987d32b63dbfb38fe86d7d4fc8a18"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/best_model/tokenizer_config.json",
+      "sha256": "69cd85ac80d0b7a003068baa11879f006bf7f5b60500f45e6794dafe9dd1d43e",
+      "bytes": 136739,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer_config.json",
+          "git_blob": "dd0c08c1a1f3a87842b3f7ad504618c991aadd59"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/common.py",
+      "sha256": "65fc2ac25d8fdab96f9682e1235cd748ce26d6b3e3db397f516c5882d174e503",
+      "bytes": 7747,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/common.py",
+          "git_blob": "abe412d74f66a5c68963e37b2587bd955deed840"
+        }
+      ],
+      "original_sha256": "8e68053b87fc8988683716921439c38891bf2b05d91b20c4e38be06601a09314",
+      "original_bytes": 7706,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "with open('../data/prompt_template_1.txt') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt')) as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_1.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_2.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_2.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_3.txt')",
+          "after": "os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'latest', 'prompt_template_3.txt')",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_1.txt'",
+          "after": "'shared', 'prompt_template_1.txt'",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_2.txt'",
+          "after": "'shared', 'prompt_template_2.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'latest', 'prompt_template_3.txt'",
+          "after": "'shared', 'prompt_template_3_latest.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompt_template_3_latest.txt'",
+          "after": "'shared', 'latest', 'prompt_template_3.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'prompt_template_",
+          "after": "'data', 'prompt_template_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'latest', 'prompt_template_3.txt'",
+          "after": "'data', 'prompt_template_3.txt'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/engine_start.txt",
+      "sha256": "567a4bcadda26e4e53fbf32000fb352e6aca2ba7645c6188e24e4472b47c1673",
+      "bytes": 2650,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_start.txt",
+          "git_blob": "eea6c16cb600cc8450133df2938b1765124797b3"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_start.txt",
+          "git_blob": "eea6c16cb600cc8450133df2938b1765124797b3"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/engine_stop.txt",
+      "sha256": "b222b2e1afc1e9036ebe88580dc709988ad28e815293e6ee6325b312ecafc3e2",
+      "bytes": 2973,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_stop.txt",
+          "git_blob": "978263d3a971cbcb4f72c50c480800aacfcc59d7"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_stop.txt",
+          "git_blob": "978263d3a971cbcb4f72c50c480800aacfcc59d7"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+      "sha256": "d6559e8fbb38f78cd8a75583ce6ed8dc8e6a7b7042e8b628247d3a26d9b27355",
+      "bytes": 5439,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+          "git_blob": "e4af7e91d3a7c867ae748022c06c8a914c91e5c2"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+          "git_blob": "e4af7e91d3a7c867ae748022c06c8a914c91e5c2"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+      "sha256": "c770ee4eff85a1ca17347e18c8981568aa68293c022ed7cdef4bcd0cbff1d41a",
+      "bytes": 5082,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+          "git_blob": "50460a6eef21c3e4071e05b326cf1f77db2c6799"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+          "git_blob": "50460a6eef21c3e4071e05b326cf1f77db2c6799"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/gg_scale.txt",
+      "sha256": "25d389294d95ab9724d59f7cf9ca4fb28617599ef0536b5062d4eea6f65898c3",
+      "bytes": 6966,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/gg_scale.txt",
+          "git_blob": "0c76fbfdc82b7889c028ffc96905408b0d087fd1"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/gg_scale.txt",
+          "git_blob": "0c76fbfdc82b7889c028ffc96905408b0d087fd1"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+      "sha256": "bda3996c93749690ec0bd38c997490756e50296d467b6bb6ad349e1a45b894bb",
+      "bytes": 3037,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+          "git_blob": "69615352898e43f4a5cd8dae1be114105c19cd5c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+          "git_blob": "69615352898e43f4a5cd8dae1be114105c19cd5c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+      "sha256": "6085d3cb88a954301805885c5bcc6d3083f2e5ed19fef3f3c0fdfcc1d6eb5501",
+      "bytes": 3375,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+          "git_blob": "cc0e9ed17af00728dcfc8036089b4252bd4f3acc"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+          "git_blob": "cc0e9ed17af00728dcfc8036089b4252bd4f3acc"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/joystick_toggle_off.txt",
+      "sha256": "39f625f8f7276b3adae311315b87667d6cdd1eccbb64c306b9fec16bc75685b3",
+      "bytes": 3549,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_off.txt",
+          "git_blob": "a53df6f633e782b47300ba0141f2bd892d883d3c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_off.txt",
+          "git_blob": "a53df6f633e782b47300ba0141f2bd892d883d3c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/joystick_toggle_on.txt",
+      "sha256": "702ce6a5c0a16245b728f882dcfa82fbc94f94cd79361061728bfaddab663f6e",
+      "bytes": 3163,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_on.txt",
+          "git_blob": "ab5dad9398c96a4c63a9ebd8c64705f972f29e90"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_on.txt",
+          "git_blob": "ab5dad9398c96a4c63a9ebd8c64705f972f29e90"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/other.txt",
+      "sha256": "57852bbd4b39a65800f8c4d54eef6550af90fe8d4265e79417a31178d30db77b",
+      "bytes": 1216,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/other.txt",
+          "git_blob": "1c23c0909c56bdb0c913f24998aa14a5d41dbaab"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/other.txt",
+          "git_blob": "1c23c0909c56bdb0c913f24998aa14a5d41dbaab"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+      "sha256": "b897503725158499aad6ff79fe7ff234b320b8bb9b241d68fb5ea3dad21648bf",
+      "bytes": 5302,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+          "git_blob": "4b6f979f3238c361c943d00bf8639360866ff41c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+          "git_blob": "4b6f979f3238c361c943d00bf8639360866ff41c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+      "sha256": "da3e31e9a957732e28b1a231aa5d1a89fb7cd88162b3ae33d402933727a1778b",
+      "bytes": 5208,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+          "git_blob": "7e5e8186de43676a900241bebabfa755ee40a14f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+          "git_blob": "7e5e8186de43676a900241bebabfa755ee40a14f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/speed_request_kmh.txt",
+      "sha256": "02352a7780f0148aba2d477193640128e176cc312fa46bd514595e16ab8942e8",
+      "bytes": 8916,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_kmh.txt",
+          "git_blob": "171853fac131dc5eb67b05f427d4ec749a934bec"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_kmh.txt",
+          "git_blob": "171853fac131dc5eb67b05f427d4ec749a934bec"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/speed_request_mps.txt",
+      "sha256": "eb9f09b467e6e8cc5521ee67217a71770760bb2d55c202500f558d98410e2b34",
+      "bytes": 7249,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_mps.txt",
+          "git_blob": "9c9aad9f76a0c0fc63a4cf60d2b27081f1836760"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_mps.txt",
+          "git_blob": "9c9aad9f76a0c0fc63a4cf60d2b27081f1836760"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/start.txt",
+      "sha256": "ba9b4627838f8da8db06e98e5f43690df25202e1655c319ac2e2192cd687d8ff",
+      "bytes": 2385,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/start.txt",
+          "git_blob": "d839f84b503bb59f0bf1bcd7057d9c4d3616bcf9"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/start.txt",
+          "git_blob": "d839f84b503bb59f0bf1bcd7057d9c4d3616bcf9"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/stop.txt",
+      "sha256": "bbafb321f522489c7846729f7e69d7442d020396ff99ace6bae087e3f608c14b",
+      "bytes": 2628,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop.txt",
+          "git_blob": "aa0d28157f7e7d5a0210ac1493b6fa6ee90cceff"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop.txt",
+          "git_blob": "aa0d28157f7e7d5a0210ac1493b6fa6ee90cceff"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+      "sha256": "fbee599002d31b2252ed78b1d516fa6df6f41165bfb7ed65681c927a98103f24",
+      "bytes": 2790,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+          "git_blob": "b195a28b09b1895b8788cbbc05fd43fb37c1f2f4"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+          "git_blob": "b195a28b09b1895b8788cbbc05fd43fb37c1f2f4"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+      "sha256": "1038b37969a50052ff861354af7d478aa68aa740357c767b6c026ad993a7bb5c",
+      "bytes": 4323,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+          "git_blob": "25de63874a4bd2d00e4070353347f55f27ca99fa"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+          "git_blob": "25de63874a4bd2d00e4070353347f55f27ca99fa"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/prompt_template_1.txt",
+      "sha256": "2adc1b1a8980d6f946356ad6604341bf3c4f08a187c94001f0c790182b69f107",
+      "bytes": 3221,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/prompt_template_2.txt",
+      "sha256": "9b69a8825e2ce245599e5de2b76feaf1cdbb4736879c110b9fb466682194f76b",
+      "bytes": 2468,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/prompt_template_3.txt",
+      "sha256": "fc6bbeb103c983b2969c1597cacccbfb09d7138a417518245df5fedbacb09060",
+      "bytes": 1731,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_3.txt",
+          "git_blob": "a53f5d35722c81a20e422516d2049f0e0c0f0031"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/request_commands_dataset_v1.0.json",
+      "sha256": "4ba29604e48bb0b972db1a9d70972f6ebf72d663f25b7a0829451c1afa791b26",
+      "bytes": 111269,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/request_commands_dataset_v1.0.json",
+          "git_blob": "ca2a4518537ee2c99fa9fbb719bb534bf4ee7043"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/request_commands_test_dataset_v1.0.json",
+      "sha256": "57ddfc5078d15e9846a962661b41055ce1bcffc703b60f7e961f779306e82104",
+      "bytes": 23385,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/request_commands_test_dataset_v1.0.json",
+          "git_blob": "8fbb76ea6a797efea139dbea68e34d7ecd429062"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/data/request_commands_train_dataset_v1.0.json",
+      "sha256": "9f38081ca155ee90c91d68e7fe0d75f91522374d362385f512f76e0e633f58d9",
+      "bytes": 88433,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/request_commands_train_dataset_v1.0.json",
+          "git_blob": "87980e3b56041b93f98fec513724ad16a376f1c7"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/notebooks/all_request_commands_v1.0_fine_tuning.ipynb",
+      "sha256": "83a32797c434444749ea39ca183e0e6529c6ab60d12ed8c974b14d7a05ebaed1",
+      "bytes": 67452,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Fine-tuning/all_request_commands_v1.0_fine_tuning.ipynb",
+          "git_blob": "d8e4602dd6d5eed60cc9cc7a31f0a3138f9c83bb"
+        }
+      ],
+      "original_sha256": "83a32797c434444749ea39ca183e0e6529c6ab60d12ed8c974b14d7a05ebaed1",
+      "original_bytes": 67452,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/request_commands_",
+          "after": "../../../shared/data/latest/request_commands_",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/latest/request_commands_test_dataset_v1.0.json",
+          "after": "shared/request_commands_test_dataset_v1.0_latest.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/latest/request_commands_train_dataset_v1.0.json",
+          "after": "shared/request_commands_train_dataset_v1.0_latest.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_test_dataset_v1.0_latest.json",
+          "after": "shared/latest/request_commands_test_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_train_dataset_v1.0_latest.json",
+          "after": "shared/latest/request_commands_train_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../shared/latest/",
+          "after": "../data/",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/notebooks/dataset_creation/request_commands_dataset_creation.ipynb",
+      "sha256": "180901b304af7759818b04e5e1ac5992319dcfbb35fb1adfafee210fc9536031",
+      "bytes": 4985,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/request_commands_dataset_creation.ipynb",
+          "git_blob": "0a17939fef28bddaae3cb3ead1ed1b46e1bcd6ee"
+        }
+      ],
+      "original_sha256": "ca17584afc4e451d02ccb24b9a4e0df2a81227bbcbda3e440a060d2e533c4d25",
+      "original_bytes": 4950,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "enhanced_commands_augmentation/",
+          "after": "../../../../shared/data/enhanced_commands_augmentation/",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../request_commands_",
+          "after": "../../../../shared/data/latest/request_commands_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/latest/request_commands_dataset_v1.0.json",
+          "after": "shared/request_commands_dataset_v1.0_latest.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/latest/request_commands_test_dataset_v1.0.json",
+          "after": "shared/request_commands_test_dataset_v1.0_latest.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/latest/request_commands_train_dataset_v1.0.json",
+          "after": "shared/request_commands_train_dataset_v1.0_latest.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/enhanced_commands_augmentation/",
+          "after": "shared/enhanced_commands_augmentation/",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_test_dataset_v1.0_latest.json",
+          "after": "shared/latest/request_commands_test_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_dataset_v1.0_latest.json",
+          "after": "shared/latest/request_commands_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_train_dataset_v1.0_latest.json",
+          "after": "shared/latest/request_commands_train_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../../shared/latest/",
+          "after": "../../data/",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../../shared/enhanced_commands_augmentation/",
+          "after": "../../data/enhanced_commands_augmentation/",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/latest/provenance/runtime_requirements.txt",
+      "sha256": "f616b4b98979adeafa8971d11cbd03633e9dc6c408a43771704f30ad302d6017",
+      "bytes": 1182,
+      "sources": [
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "docker/src/requirements.txt",
+          "git_blob": "bc7b2217f1cf9638135bfda1c7fb022c054d4b5f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/adapter_config.json",
+      "sha256": "d6e490037ff964bb5e9f7e17f6e17ead6b4b54dad0d361565bb83c5f8184b5c1",
+      "bytes": 863,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/adapter_config.json",
+          "git_blob": "c98f8ebcf96cfdbf158b1a827e577673fc332a68"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/adapter_model.safetensors",
+      "sha256": "194ae2cf8153da044742598dc5b83f1a5b067bebf9f46532a41bb84dddb53780",
+      "bytes": 335604696,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/adapter_model.safetensors",
+          "git_blob": "75fc9e8816eba96e21bee41a177c61f2bf023e75"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/special_tokens_map.json",
+      "sha256": "45187dad192cfa8e55bbc491417657bca8c74cb2b4582178fa5978a23cfc56fc",
+      "bytes": 560,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/special_tokens_map.json",
+          "git_blob": "980a210e54a39f53a5bbfbf85adc588413cdb90e"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/tokenizer.json",
+      "sha256": "60c3fc985cbfedcb429d05994efe548bdfecd6a00226fcdc8380c36fd894a3be",
+      "bytes": 3671968,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer.json",
+          "git_blob": "da28944e01470eb8a1b3c9a1663212d0a1af24cf"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/tokenizer.model",
+      "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+      "bytes": 587404,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer.model",
+          "git_blob": "d8233e5b061987d32b63dbfb38fe86d7d4fc8a18"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/tokenizer_config.json",
+      "sha256": "b7e472ca51dc98551313db9d75e24d5aef1a5af7450473e3d138de60e726510e",
+      "bytes": 139572,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/tokenizer_config.json",
+          "git_blob": "cb5826710904c7ddf64e6147b38984ded8529a23"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/best_model/trainer_state.json",
+      "sha256": "21b90090f9356b9c2f0fd92fd4b21e6cd78a9ada383c6342c3c14772cf22c689",
+      "bytes": 15233,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/trainer_state.json",
+          "git_blob": "2b66a29c53e3077c16891921ae536793f06b672b"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/common.py",
+      "sha256": "9b92328728363162c4718333e4e313da66a680e8e492a99ae2e699f89fc87fed",
+      "bytes": 10484,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/common.py",
+          "git_blob": "681f588eaed4d440f82ae1e233e5d1fca47763d8"
+        }
+      ],
+      "original_sha256": "021205ae6b20dd75d72b40a67d252240a4d8015f4a46ef86f3c23fca14ba9806",
+      "original_bytes": 10443,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "with open('../data/prompt_template_1.txt') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt')) as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_1.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_1.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_2.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'prompt_template_2.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_3.txt')",
+          "after": "os.path.join(os.path.dirname(__file__), '..', '..', 'shared', 'prompts', 'paper', 'prompt_template_3.txt')",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_1.txt'",
+          "after": "'shared', 'prompt_template_1.txt'",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_2.txt'",
+          "after": "'shared', 'prompt_template_2.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'paper', 'prompt_template_3.txt'",
+          "after": "'shared', 'prompt_template_3_paper.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompt_template_3_paper.txt'",
+          "after": "'shared', 'paper', 'prompt_template_3.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'prompt_template_",
+          "after": "'data', 'prompt_template_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', '..', 'shared', 'paper', 'prompt_template_3.txt'",
+          "after": "'data', 'prompt_template_3.txt'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/engine_start.txt",
+      "sha256": "567a4bcadda26e4e53fbf32000fb352e6aca2ba7645c6188e24e4472b47c1673",
+      "bytes": 2650,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_start.txt",
+          "git_blob": "eea6c16cb600cc8450133df2938b1765124797b3"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_start.txt",
+          "git_blob": "eea6c16cb600cc8450133df2938b1765124797b3"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/engine_stop.txt",
+      "sha256": "b222b2e1afc1e9036ebe88580dc709988ad28e815293e6ee6325b312ecafc3e2",
+      "bytes": 2973,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_stop.txt",
+          "git_blob": "978263d3a971cbcb4f72c50c480800aacfcc59d7"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/engine_stop.txt",
+          "git_blob": "978263d3a971cbcb4f72c50c480800aacfcc59d7"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+      "sha256": "d6559e8fbb38f78cd8a75583ce6ed8dc8e6a7b7042e8b628247d3a26d9b27355",
+      "bytes": 5439,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+          "git_blob": "e4af7e91d3a7c867ae748022c06c8a914c91e5c2"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_off.txt",
+          "git_blob": "e4af7e91d3a7c867ae748022c06c8a914c91e5c2"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+      "sha256": "c770ee4eff85a1ca17347e18c8981568aa68293c022ed7cdef4bcd0cbff1d41a",
+      "bytes": 5082,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+          "git_blob": "50460a6eef21c3e4071e05b326cf1f77db2c6799"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/flag_by_rc_toggle_on.txt",
+          "git_blob": "50460a6eef21c3e4071e05b326cf1f77db2c6799"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/gg_scale.txt",
+      "sha256": "25d389294d95ab9724d59f7cf9ca4fb28617599ef0536b5062d4eea6f65898c3",
+      "bytes": 6966,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/gg_scale.txt",
+          "git_blob": "0c76fbfdc82b7889c028ffc96905408b0d087fd1"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/gg_scale.txt",
+          "git_blob": "0c76fbfdc82b7889c028ffc96905408b0d087fd1"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+      "sha256": "bda3996c93749690ec0bd38c997490756e50296d467b6bb6ad349e1a45b894bb",
+      "bytes": 3037,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+          "git_blob": "69615352898e43f4a5cd8dae1be114105c19cd5c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_off.txt",
+          "git_blob": "69615352898e43f4a5cd8dae1be114105c19cd5c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+      "sha256": "6085d3cb88a954301805885c5bcc6d3083f2e5ed19fef3f3c0fdfcc1d6eb5501",
+      "bytes": 3375,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+          "git_blob": "cc0e9ed17af00728dcfc8036089b4252bd4f3acc"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/into_pitlane_toggle_on.txt",
+          "git_blob": "cc0e9ed17af00728dcfc8036089b4252bd4f3acc"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/joystick_toggle_off.txt",
+      "sha256": "39f625f8f7276b3adae311315b87667d6cdd1eccbb64c306b9fec16bc75685b3",
+      "bytes": 3549,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_off.txt",
+          "git_blob": "a53df6f633e782b47300ba0141f2bd892d883d3c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_off.txt",
+          "git_blob": "a53df6f633e782b47300ba0141f2bd892d883d3c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/joystick_toggle_on.txt",
+      "sha256": "702ce6a5c0a16245b728f882dcfa82fbc94f94cd79361061728bfaddab663f6e",
+      "bytes": 3163,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_on.txt",
+          "git_blob": "ab5dad9398c96a4c63a9ebd8c64705f972f29e90"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/joystick_toggle_on.txt",
+          "git_blob": "ab5dad9398c96a4c63a9ebd8c64705f972f29e90"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/other.txt",
+      "sha256": "57852bbd4b39a65800f8c4d54eef6550af90fe8d4265e79417a31178d30db77b",
+      "bytes": 1216,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/other.txt",
+          "git_blob": "1c23c0909c56bdb0c913f24998aa14a5d41dbaab"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/other.txt",
+          "git_blob": "1c23c0909c56bdb0c913f24998aa14a5d41dbaab"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+      "sha256": "b897503725158499aad6ff79fe7ff234b320b8bb9b241d68fb5ea3dad21648bf",
+      "bytes": 5302,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+          "git_blob": "4b6f979f3238c361c943d00bf8639360866ff41c"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_off.txt",
+          "git_blob": "4b6f979f3238c361c943d00bf8639360866ff41c"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+      "sha256": "da3e31e9a957732e28b1a231aa5d1a89fb7cd88162b3ae33d402933727a1778b",
+      "bytes": 5208,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+          "git_blob": "7e5e8186de43676a900241bebabfa755ee40a14f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_by_rc_toggle_on.txt",
+          "git_blob": "7e5e8186de43676a900241bebabfa755ee40a14f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/speed_request_kmh.txt",
+      "sha256": "02352a7780f0148aba2d477193640128e176cc312fa46bd514595e16ab8942e8",
+      "bytes": 8916,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_kmh.txt",
+          "git_blob": "171853fac131dc5eb67b05f427d4ec749a934bec"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_kmh.txt",
+          "git_blob": "171853fac131dc5eb67b05f427d4ec749a934bec"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/speed_request_mps.txt",
+      "sha256": "eb9f09b467e6e8cc5521ee67217a71770760bb2d55c202500f558d98410e2b34",
+      "bytes": 7249,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_mps.txt",
+          "git_blob": "9c9aad9f76a0c0fc63a4cf60d2b27081f1836760"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/speed_request_mps.txt",
+          "git_blob": "9c9aad9f76a0c0fc63a4cf60d2b27081f1836760"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/start.txt",
+      "sha256": "ba9b4627838f8da8db06e98e5f43690df25202e1655c319ac2e2192cd687d8ff",
+      "bytes": 2385,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/start.txt",
+          "git_blob": "d839f84b503bb59f0bf1bcd7057d9c4d3616bcf9"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/start.txt",
+          "git_blob": "d839f84b503bb59f0bf1bcd7057d9c4d3616bcf9"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/stop.txt",
+      "sha256": "bbafb321f522489c7846729f7e69d7442d020396ff99ace6bae087e3f608c14b",
+      "bytes": 2628,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop.txt",
+          "git_blob": "aa0d28157f7e7d5a0210ac1493b6fa6ee90cceff"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop.txt",
+          "git_blob": "aa0d28157f7e7d5a0210ac1493b6fa6ee90cceff"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+      "sha256": "fbee599002d31b2252ed78b1d516fa6df6f41165bfb7ed65681c927a98103f24",
+      "bytes": 2790,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+          "git_blob": "b195a28b09b1895b8788cbbc05fd43fb37c1f2f4"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_off.txt",
+          "git_blob": "b195a28b09b1895b8788cbbc05fd43fb37c1f2f4"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+      "sha256": "1038b37969a50052ff861354af7d478aa68aa740357c767b6c026ad993a7bb5c",
+      "bytes": 4323,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+          "git_blob": "25de63874a4bd2d00e4070353347f55f27ca99fa"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/dataset creation/enhanced_commands_augmentation/stop_in_pitlane_toggle_on.txt",
+          "git_blob": "25de63874a4bd2d00e4070353347f55f27ca99fa"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/prompt_template_1.txt",
+      "sha256": "2adc1b1a8980d6f946356ad6604341bf3c4f08a187c94001f0c790182b69f107",
+      "bytes": 3221,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/prompt_template_2.txt",
+      "sha256": "9b69a8825e2ce245599e5de2b76feaf1cdbb4736879c110b9fb466682194f76b",
+      "bytes": 2468,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/prompt_template_3.txt",
+      "sha256": "f8e62cbcfccf706deb6daa4ee88020eb8c6f5cd91494a967ba0441a1dd1a2c18",
+      "bytes": 2285,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_3.txt",
+          "git_blob": "e444ab29e713e7e9a53a25ebb8a684776d0e39ba"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/request_commands_dataset_v1.0.json",
+      "sha256": "f459b90615965685989e8475a4e2765c6941a4a8aabce188c930c235da7588a1",
+      "bytes": 116057,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/request_commands_dataset_v1.0.json",
+          "git_blob": "71b25da5d72076f306d6c4faec355d3deef4ef86"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/request_commands_test_dataset_v1.0.json",
+      "sha256": "9726d9f8aca360154f85f3c10f9ae6e5a8cf70a24fbf8b6d8b6ba793bec737c5",
+      "bytes": 24326,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/request_commands_test_dataset_v1.0.json",
+          "git_blob": "9b54b64d742ff85e9d23d55a8202add2c3ef7e2b"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/data/request_commands_train_dataset_v1.0.json",
+      "sha256": "b46ef2dd38192368f77b0bb5885dedbd5e32b2e5f7045849c650865d3c303121",
+      "bytes": 92280,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/request_commands_train_dataset_v1.0.json",
+          "git_blob": "0f2ba76179a0fe2d10995abfe1721e1a82326ec9"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/notebooks/all_request_commands_v1.0_fine_tuning.ipynb",
+      "sha256": "56e7164ef3725f4681acf3847623361ba5c3f33a4aae91f61a2dfb2acd2630a3",
+      "bytes": 33857,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/all_request_commands_v1.0_fine_tuning.ipynb",
+          "git_blob": "2819c0cad58a70752b86e711da11381c2d84497e"
+        }
+      ],
+      "original_sha256": "56e7164ef3725f4681acf3847623361ba5c3f33a4aae91f61a2dfb2acd2630a3",
+      "original_bytes": 33857,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/request_commands_",
+          "after": "../../../shared/data/paper/request_commands_",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/paper/request_commands_test_dataset_v1.0.json",
+          "after": "shared/request_commands_test_dataset_v1.0_paper.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/paper/request_commands_train_dataset_v1.0.json",
+          "after": "shared/request_commands_train_dataset_v1.0_paper.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_test_dataset_v1.0_paper.json",
+          "after": "shared/paper/request_commands_test_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_train_dataset_v1.0_paper.json",
+          "after": "shared/paper/request_commands_train_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../shared/paper/",
+          "after": "../data/",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/notebooks/dataset_creation/request_commands_dataset_creation.ipynb",
+      "sha256": "3df3ecb056f15f0007dbbbe1158928d5437787284fa4f42af81af89a90908f25",
+      "bytes": 4983,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/dataset creation/request_commands_dataset_creation.ipynb",
+          "git_blob": "9ccdb4857644bde871712e67f578e5aabdc50121"
+        }
+      ],
+      "original_sha256": "d7b6cfbe3dcac24f427671983f3aa7c220fd8fbc64186746356521d2f9a291df",
+      "original_bytes": 4948,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "enhanced_commands_augmentation/",
+          "after": "../../../../shared/data/enhanced_commands_augmentation/",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../request_commands_",
+          "after": "../../../../shared/data/paper/request_commands_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/paper/request_commands_dataset_v1.0.json",
+          "after": "shared/request_commands_dataset_v1.0_paper.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/paper/request_commands_test_dataset_v1.0.json",
+          "after": "shared/request_commands_test_dataset_v1.0_paper.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/paper/request_commands_train_dataset_v1.0.json",
+          "after": "shared/request_commands_train_dataset_v1.0_paper.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/enhanced_commands_augmentation/",
+          "after": "shared/enhanced_commands_augmentation/",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_dataset_v1.0_paper.json",
+          "after": "shared/paper/request_commands_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_test_dataset_v1.0_paper.json",
+          "after": "shared/paper/request_commands_test_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/request_commands_train_dataset_v1.0_paper.json",
+          "after": "shared/paper/request_commands_train_dataset_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../../shared/paper/",
+          "after": "../../data/",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../../../shared/enhanced_commands_augmentation/",
+          "after": "../../data/enhanced_commands_augmentation/",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/provenance/original_model_card.md",
+      "sha256": "34bc71ded725bcfa0a2a7595e8a464b238f1ab149c816f2efa2ad7d53bf2f21b",
+      "bytes": 5107,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Fine-tuning/best_model/README.md",
+          "git_blob": "cda6786b60e211e995e4547562aeede75b1cb423"
+        }
+      ]
+    },
+    {
+      "path": "fine-tuning/paper/provenance/runtime_requirements.txt",
+      "sha256": "670256b9322cd67686da334ab87913741974ad5c1e6a1af3f604b29aea6624a7",
+      "bytes": 1040,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "docker/src/requirements.txt",
+          "git_blob": "98f8a7c76e1c0895f16ca22f273ab1c7166f1b0c"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/common.py",
+      "sha256": "9b92328728363162c4718333e4e313da66a680e8e492a99ae2e699f89fc87fed",
+      "bytes": 10484,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/common.py",
+          "git_blob": "681f588eaed4d440f82ae1e233e5d1fca47763d8"
+        }
+      ],
+      "original_sha256": "021205ae6b20dd75d72b40a67d252240a4d8015f4a46ef86f3c23fca14ba9806",
+      "original_bytes": 10443,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "with open('../data/prompt_template_1.txt') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', 'shared', 'prompts', 'prompt_template_1.txt')) as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_1.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', 'shared', 'prompts', 'prompt_template_1.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "with open(os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_2.txt'), 'r') as file:",
+          "after": "with open(os.path.join(os.path.dirname(__file__), '..', 'shared', 'prompts', 'prompt_template_2.txt'), 'r') as file:",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "os.path.join(os.path.dirname(__file__), 'data', 'prompt_template_3.txt')",
+          "after": "os.path.join(os.path.dirname(__file__), '..', 'shared', 'prompts', 'paper', 'prompt_template_3.txt')",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_1.txt'",
+          "after": "'shared', 'prompt_template_1.txt'",
+          "count": 2
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'prompt_template_2.txt'",
+          "after": "'shared', 'prompt_template_2.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompts', 'paper', 'prompt_template_3.txt'",
+          "after": "'shared', 'prompt_template_3_paper.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'shared', 'prompt_template_3_paper.txt'",
+          "after": "'shared', 'paper', 'prompt_template_3.txt'",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', 'shared', 'prompt_template_",
+          "after": "'data', 'prompt_template_",
+          "count": 3
+        },
+        {
+          "kind": "text_replace",
+          "before": "'..', 'shared', 'paper', 'prompt_template_3.txt'",
+          "after": "'data', 'prompt_template_3.txt'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/data/README.md",
+      "sha256": "80e5a44763dae145ddaebc24123601360f6c3210982fdd9f74eecaadddae95cb",
+      "bytes": 279,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/README.md",
+          "git_blob": "63a25a19402c5b14a405e934877ad8fcd500a42b"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/README.md",
+          "git_blob": "63a25a19402c5b14a405e934877ad8fcd500a42b"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/data/basic_commands_v1.0.json",
+      "sha256": "cfadee7bc2c71d2a55ae7fed49b6d2cc76545166832f1f39ffca529d503b8895",
+      "bytes": 3171,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/basic_commands_v1.0.json",
+          "git_blob": "b5a66e3e46f4ed83fe0c64a2fd663d3f7b557336"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/basic_commands_v1.0.json",
+          "git_blob": "b5a66e3e46f4ed83fe0c64a2fd663d3f7b557336"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/data/prompt_template_1.txt",
+      "sha256": "2adc1b1a8980d6f946356ad6604341bf3c4f08a187c94001f0c790182b69f107",
+      "bytes": 3221,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_1.txt",
+          "git_blob": "48111cfafa3fdb4a7e7aa6deee7248e65b608637"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/data/prompt_template_2.txt",
+      "sha256": "9b69a8825e2ce245599e5de2b76feaf1cdbb4736879c110b9fb466682194f76b",
+      "bytes": 2468,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/data/prompt_template_2.txt",
+          "git_blob": "b27a2654128ef23167b87fc552c25fa6e87b6c5f"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/data/prompt_template_3.txt",
+      "sha256": "f8e62cbcfccf706deb6daa4ee88020eb8c6f5cd91494a967ba0441a1dd1a2c18",
+      "bytes": 2285,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/data/prompt_template_3.txt",
+          "git_blob": "e444ab29e713e7e9a53a25ebb8a684776d0e39ba"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/all_commands_benchmark_1.pkl",
+      "sha256": "aafe39e6340be2e47bfffe50ef3031e7865fc4f27d227bf6a0c760675ad4e3ae",
+      "bytes": 1102926,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/all_commands_benchmark_1.pkl",
+          "git_blob": "d5cf36969f9fc2456e6a9db4f6019d9757c10d70"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/all_commands_benchmark_1_ollama.ipynb",
+      "sha256": "6d4d43aafd7ab38b831733277e92c44776a5544bef3b59cbf99303497a1b01d7",
+      "bytes": 9192,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/all_commands_benchmark_1_ollama.ipynb",
+          "git_blob": "196c868f3df18949d6be482ae26e1e9fff003fab"
+        }
+      ],
+      "original_sha256": "6d4d43aafd7ab38b831733277e92c44776a5544bef3b59cbf99303497a1b01d7",
+      "original_bytes": 9192,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_v1.0.json",
+          "after": "../../shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "after": "shared/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../shared/basic_commands_v1.0.json",
+          "after": "../data/basic_commands_v1.0.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/all_commands_benchmark_2.pkl",
+      "sha256": "d474fa9af0a0d73107217f1a84708ee3768beace7e23be9690f92f95980a4dc9",
+      "bytes": 368848,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/all_commands_benchmark_2.pkl",
+          "git_blob": "16bae4fb0a4318e19be47735d8d64e1e5768e884"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/all_commands_benchmark_2_ollama.ipynb",
+      "sha256": "0f7085bf43dfd4599b26d18a7a9b959d11a8570788f49e68cb946e89fc02dddd",
+      "bytes": 9330,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/all_commands_benchmark_2_ollama.ipynb",
+          "git_blob": "36f882a4fe18c5fa95b81a6ffc5c3b4f38d22ab1"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/all_commands_benchmark_2_ollama.ipynb",
+          "git_blob": "36f882a4fe18c5fa95b81a6ffc5c3b4f38d22ab1"
+        }
+      ],
+      "original_sha256": "0f7085bf43dfd4599b26d18a7a9b959d11a8570788f49e68cb946e89fc02dddd",
+      "original_bytes": 9330,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_v1.0.json",
+          "after": "../../shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "after": "shared/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../shared/basic_commands_v1.0.json",
+          "after": "../data/basic_commands_v1.0.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/commands_subset_benchmark_1.pkl",
+      "sha256": "eca9a8f8b51636e825e01d10d9a90490234ee97ce7889da9071a89b64ca71c97",
+      "bytes": 103079,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/commands_subset_benchmark_1.pkl",
+          "git_blob": "279c8af39cd8999d89a0ce8a1748189caee6f1f4"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/commands_subset_benchmark_1_ollama.ipynb",
+      "sha256": "a59cecb5c65a752121f9da59dd442ab5d90fd98a348c25e85925f89bbde904d2",
+      "bytes": 9528,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/commands_subset_benchmark_1_ollama.ipynb",
+          "git_blob": "1a53931c88f4fcd2236230ac01abdb13185ea989"
+        }
+      ],
+      "original_sha256": "a59cecb5c65a752121f9da59dd442ab5d90fd98a348c25e85925f89bbde904d2",
+      "original_bytes": 9528,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_v1.0.json",
+          "after": "../../shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "after": "shared/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../shared/basic_commands_v1.0.json",
+          "after": "../data/basic_commands_v1.0.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/commands_subset_benchmark_2.pkl",
+      "sha256": "8d4a3406471351af9da7aafa3b6160a484dd5cc889567330b7f631d1e84f62dd",
+      "bytes": 102776,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/commands_subset_benchmark_2.pkl",
+          "git_blob": "16014d1cdde8d4b4185bf6d4f548ddda0525173e"
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/ollama/commands_subset_benchmark_2_ollama.ipynb",
+      "sha256": "83c73aa64064b2bbeae42903849c2128e1e01de12728cd0b9f7a5ca470cf7c6a",
+      "bytes": 9592,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/Ollama models - pre fine-tuning benchmarking/commands_subset_benchmark_2_ollama.ipynb",
+          "git_blob": "23d4d80b0c78cc32661d1a30521a3ed5d196a474"
+        }
+      ],
+      "original_sha256": "83c73aa64064b2bbeae42903849c2128e1e01de12728cd0b9f7a5ca470cf7c6a",
+      "original_bytes": 9592,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_v1.0.json",
+          "after": "../../shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "after": "shared/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../shared/basic_commands_v1.0.json",
+          "after": "../data/basic_commands_v1.0.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/openai/all_commands_benchmark_1_openai.ipynb",
+      "sha256": "4cab8a0b6e3858ef0773c704f24e11fe3cd5b0a5501f873f9ac658f242de1e5a",
+      "bytes": 14227,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/OpenAI models - pre fine-tuning benchmarking/all_commands_benchmark_1_openai.ipynb",
+          "git_blob": "5fb65f66b97acb364d1712d4f4813e81ad31e6ec"
+        },
+        {
+          "source_commit": "46a49ec5d51ea12c9dc447b1d3172d5ad07e24d7",
+          "source_path": "research/text_to_command/OpenAI models - pre fine-tuning benchmarking/all_commands_benchmark_1_openai.ipynb",
+          "git_blob": "5fb65f66b97acb364d1712d4f4813e81ad31e6ec"
+        }
+      ],
+      "original_sha256": "4cab8a0b6e3858ef0773c704f24e11fe3cd5b0a5501f873f9ac658f242de1e5a",
+      "original_bytes": 14227,
+      "transformations": [
+        {
+          "kind": "text_replace",
+          "before": "../data/basic_commands_v1.0.json",
+          "after": "../../shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "shared/data/pre-fine-tuning/basic_commands_v1.0.json",
+          "after": "shared/basic_commands_v1.0.json",
+          "count": 1
+        },
+        {
+          "kind": "text_replace",
+          "before": "../../shared/basic_commands_v1.0.json",
+          "after": "../data/basic_commands_v1.0.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "pre-fine-tuning/openai/results_openai.pkl",
+      "sha256": "fa242ef7f9abebcd78ef088fd15eaf07dbe06020deaa5b72bceeb5fe256c2742",
+      "bytes": 609396,
+      "sources": [
+        {
+          "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+          "source_path": "research/text_to_command/OpenAI models - pre fine-tuning benchmarking/results_openai.pkl",
+          "git_blob": "487845fa3605f11e32fa472e649245e24c1e2a0f"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+      "source_path": "research/text_to_command/Fine-tuning/best_model/optimizer.pt",
+      "reason": "Training-resume state; not required to inspect results, load the adapter, or retrain from the notebook."
+    },
+    {
+      "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+      "source_path": "research/text_to_command/Fine-tuning/best_model/rng_state.pth",
+      "reason": "Training-resume state; not required to inspect results, load the adapter, or retrain from the notebook."
+    },
+    {
+      "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+      "source_path": "research/text_to_command/Fine-tuning/best_model/scheduler.pt",
+      "reason": "Training-resume state; not required to inspect results, load the adapter, or retrain from the notebook."
+    },
+    {
+      "source_commit": "97b8c1c04aaee2d96d0fcf986d005ff2a7e1e0da",
+      "source_path": "research/text_to_command/Fine-tuning/best_model/training_args.bin",
+      "reason": "Training-resume state; not required to inspect results, load the adapter, or retrain from the notebook."
+    }
+  ]
+}

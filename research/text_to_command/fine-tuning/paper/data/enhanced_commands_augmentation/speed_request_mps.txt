@@ -1,0 +1,143 @@
+--- Synonym Replacement ---
+Increasing speed to fifty meters per second, 50, INCREASE
+Raising speed to thirty-five meters per second, 35, INCREASE
+Setting velocity to forty meters per second, 40, CHANGE
+Adjusting speed to forty-five meters per second, 45, CHANGE
+Boosting speed to sixty meters per second, 60, INCREASE
+Accelerating speed to fifty-two meters per second, 52, INCREASE
+
+Decreasing speed to twenty-eight meters per second, 28, DECREASE
+Lowering speed to thirty meters per second, 30, DECREASE
+Reducing speed to twenty-five meters per second, 25, DECREASE
+Slowing down speed to thirty-two meters per second, 32, DECREASE
+Cutting speed to twenty meters per second, 20, DECREASE
+Dropping speed to twenty-seven meters per second, 27, DECREASE
+
+Setting speed to forty meters per second, 40, CHANGE
+Assigning speed to thirty-eight meters per second, 38, CHANGE
+Fixing speed to forty-two meters per second, 42, CHANGE
+Placing speed at forty-five meters per second, 45, CHANGE
+Setting velocity to thirty-six meters per second, 36, CHANGE
+Putting speed at forty meters per second, 40, CHANGE
+
+Set the speed to forty meters per second, 40, CHANGE
+Place speed at forty meters per second, 40, CHANGE
+Assign speed to forty meters per second, 40, CHANGE
+Set velocity to forty meters per second, 40, CHANGE
+Adjust speed to forty meters per second, 40, CHANGE
+Apply speed setting of forty meters per second, 40, CHANGE
+
+Increase speed to sixty meters per second, 60, INCREASE
+Boost speed to sixty-five meters per second, 65, INCREASE
+Raise speed to sixty meters per second, 60, INCREASE
+Speed up to sixty-seven meters per second, 67, INCREASE
+Enhance speed to sixty-two meters per second, 62, INCREASE
+Push speed to sixty meters per second, 60, INCREASE
+
+--- Paraphrasing ---
+Increasing speed now to fifty meters per second, 50, INCREASE
+Speed increase to thirty-three meters per second, 33, INCREASE
+Set speed now at forty meters per second, 40, CHANGE
+Speed is set to forty-five meters per second, 45, CHANGE
+Speed is rising to sixty meters per second, 60, INCREASE
+Current speed is increasing to fifty-one meters per second, 51, INCREASE
+
+Decreasing speed now to twenty-seven meters per second, 27, DECREASE
+Speed lowering to thirty meters per second, 30, DECREASE
+Reduce speed to twenty-nine meters per second, 29, DECREASE
+Slow speed to thirty-four meters per second, 34, DECREASE
+Cut speed to twenty-one meters per second, 21, DECREASE
+Speed is dropping to twenty-five meters per second, 25, DECREASE
+
+Speed set to forty meters per second, 40, CHANGE
+Speed fixed at thirty-nine meters per second, 39, CHANGE
+Speed assigned as forty-one meters per second, 41, CHANGE
+Speed placed at forty-three meters per second, 43, CHANGE
+Speed adjusted to thirty-seven meters per second, 37, CHANGE
+Speed confirmed at forty meters per second, 40, CHANGE
+
+Set speed to forty meters per second, 40, CHANGE
+Speed is set to forty meters per second, 40, CHANGE
+Set the velocity to forty meters per second, 40, CHANGE
+Set the speed now to forty meters per second, 40, CHANGE
+Adjust the speed to forty meters per second, 40, CHANGE
+Make sure speed is fixed at forty meters per second, 40, CHANGE
+
+Speed increased to sixty meters per second, 60, INCREASE
+Boost speed now to sixty-four meters per second, 64, INCREASE
+Speed raised to sixty meters per second, 60, INCREASE
+Speed going up to sixty-six meters per second, 66, INCREASE
+Enhance the speed to sixty-one meters per second, 61, INCREASE
+Speed climbing to sixty-three meters per second, 63, INCREASE
+
+--- Word Reordering ---
+Increasing speed to thirty-two meters per second, 32, INCREASE
+Speed increasing to fifty meters per second, 50, INCREASE
+To forty meters per second speed setting, 40, CHANGE
+Speed to forty-five meters per second increasing, 45, INCREASE
+Speed increase to sixty meters per second, 60, INCREASE
+Speed raising to forty-eight meters per second, 48, INCREASE
+
+Decreasing speed to twenty-nine meters per second, 29, DECREASE
+Speed decreasing to thirty meters per second, 30, DECREASE
+To twenty-seven meters per second speed lowering, 27, DECREASE
+Speed to twenty-one meters per second cutting, 21, DECREASE
+Speed lowering to twenty-five meters per second, 25, DECREASE
+Speed reducing to twenty-eight meters per second, 28, DECREASE
+
+Setting speed to forty meters per second, 40, CHANGE
+Speed setting to forty meters per second, 40, CHANGE
+To forty-two meters per second speed assigning, 42, CHANGE
+Speed to forty-five meters per second placing, 45, CHANGE
+Speed assigning to thirty-eight meters per second, 38, CHANGE
+Speed set to forty meters per second now, 40, CHANGE
+
+Set the speed to forty meters per second, 40, CHANGE
+Speed set the to forty meters per second, 40, CHANGE
+To forty meters per second speed place, 40, CHANGE
+Speed to forty meters per second adjust, 40, CHANGE
+Adjust speed to forty meters per second, 40, CHANGE
+Speed place at forty meters per second set, 40, CHANGE
+
+Increase speed to sixty meters per second, 60, INCREASE
+Speed increase to sixty-five meters per second, 65, INCREASE
+To sixty meters per second speed raise, 60, INCREASE
+Speed raising to sixty-seven meters per second, 67, INCREASE
+Speed raised to sixty-two meters per second, 62, INCREASE
+Speed up to sixty meters per second increase, 60, INCREASE
+
+--- Slight Additions ---
+Increasing speed to fifty meters per second now, 50, INCREASE
+Please increase speed to thirty-three meters per second, 33, INCREASE
+Make sure to set speed at forty meters per second, 40, CHANGE
+Increase speed steadily to forty-five meters per second, 45, INCREASE
+Boost speed carefully to sixty meters per second, 60, INCREASE
+Kindly accelerate speed to fifty meters per second now, 50, INCREASE
+
+Decreasing speed now to twenty-eight meters per second, 28, DECREASE
+Please reduce speed to thirty meters per second, 30, DECREASE
+Slow down to twenty-nine meters per second speed, 29, DECREASE
+Cut the speed to thirty-four meters per second, 34, DECREASE
+Lower speed gently to twenty-one meters per second, 21, DECREASE
+Please lower speed carefully to twenty-seven meters per second, 27, DECREASE
+
+Set speed precisely to forty meters per second, 40, CHANGE
+Kindly set speed to thirty-nine meters per second, 39, CHANGE
+Adjust speed now to forty-one meters per second, 41, CHANGE
+Set speed carefully at forty-three meters per second, 43, CHANGE
+Please adjust speed to thirty-seven meters per second, 37, CHANGE
+Please fix speed exactly at forty meters per second, 40, CHANGE
+
+Set the speed exactly to forty meters per second, 40, CHANGE
+Make sure to set speed to forty meters per second, 40, CHANGE
+Please place speed at forty meters per second, 40, CHANGE
+Adjust speed carefully to forty meters per second, 40, CHANGE
+Kindly set speed to forty meters per second, 40, CHANGE
+Ensure speed is steady at forty meters per second, 40, CHANGE
+
+Increase speed to sixty meters per second steadily, 60, INCREASE
+Please boost speed to sixty-four meters per second, 64, INCREASE
+Carefully increase speed to sixty meters per second, 60, INCREASE
+Raise speed slowly to sixty-six meters per second, 66, INCREASE
+Enhance speed carefully to sixty-one meters per second, 61, INCREASE
+Boost speed steadily to sixty-three meters per second, 63, INCREASE

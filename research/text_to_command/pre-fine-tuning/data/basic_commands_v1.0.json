@@ -1,0 +1,25 @@
+{
+    "STOP": ["We are sending a stop request.", "Stop the car.", "Please stop.", "Stop Request.", "Halt immediately!"],
+    "START": ["Sending a start request.", "Start moving.", "Car starts going.", "Start driving.", "Let's go."],
+    "ENGINE_STOP": ["Shut off the engine.", "Stop the engine.", "Shut down the engine.", "Turn off the engine now.", "Power down the engine."],
+    "ENGINE_START": ["Fire up the engine.", "Start up the engine.", "Start the engine.", "Engine Start", "Turn on the engine."],
+    "CRANK_REQUEST": ["Cranking the engine now.", "Crank the engine", "Start cranking the engine.", "Begin engine cranking.", "The engine is cranking now."],
+
+    "STOP_IN_PITLANE_TOGGLE_ON": ["Send a pitlane request and stop in pitlane.", "Box and stop this lap.", "Entering the pits and stopping this lap.", "Stop in the pitlane.", "Pull into the pitlane and stop."],
+    "STOP_IN_PITLANE_TOGGLE_OFF": ["Cancel the pit stop request.", "Stay out and do not stop.", "Abort pit entry and continue racing.", "Abort pit request.", "Ignore the pit stop and keep racing."],
+
+    "SPEED_BY_RC_TOGGLE_ON": ["Speed is received by race control.", "Car abides to speeds from race control.", "Adhere to race control speeds.", "Follow the speed limits set by race control.", "Maintain the speed as directed by race control."],
+    "SPEED_BY_RC_TOGGLE_OFF": ["Speed control by race control is disabled.", "Driver controls the speed manually.", "Race control speed restrictions are lifted.", "Adhere to our speed targets.", "Speed limits from race control are no longer active."],
+
+    "FLAG_BY_RC_TOGGLE_ON": ["Flags are received by race control.", "Race control sets the track and the vehicle flag.", "Adhere to race control flags.", "Switch to basestation flags", "Follow the flags set by race control."],
+    "FLAG_BY_RC_TOGGLE_OFF": ["Flags from race control are disabled.", "Driver or team manages flag information.", "Race control no longer sets flags for the vehicle.", "Race control flags are no longer active.", "The driver or team now manages flag control."],
+
+    "INTO_PITLANE_TOGGLE_ON": ["Entering the pits this lap.", "Box this lap.", "Pitlane drive through.", "Heading into the pitlane now.", "Proceed to the pits this lap."],
+    "INTO_PITLANE_TOGGLE_OFF": ["Staying out on track.", "Pit entry request canceled.", "Continuing without pitting.", "Abort pitlane drive through.", "No pit entry this lap."],
+
+    "JOYSTICK_TOGGLE_ON": ["Joystick mode is on.", "Switch to manual mode", "Joystick control activated.", "Manual mode engaged.", "Switching to joystick control."],
+    "JOYSTICK_TOGGLE_OFF": ["Autonomous mode is on.", "Switch to autonomous mode.", "Joystick control deactivated.", "Now in autonomous driving mode.", "Switching to automatic control."],
+
+    "SPEED_REQUEST": [["Increasing speed to 50 m/s", 50], ["Decreasing speed to 30 m/s", 30], ["Setting speed to 40 mps", 40], ["Set the speed to 40 m/s.", 40], ["Increase speed to 60 mps.", 60]],
+    "GG_SCALE": [["Reducing gg-scale to 0.2", 0.2], ["Increasing gg-scale to 0.5", 0.5], ["Please set the gg scale to 0.8.", 0.8], ["Adjusting gg-scale to 0.3.", 0.3], ["Setting gg-scale to 0.7.", 0.7]]
+}

@@ -1,0 +1,22 @@
+# Python
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+*.py[cod]
+models/
+base_model/
+adapter_model/
+unsloth_compiled_cache/
+wandb/
+outputs/
+__pycache__/
+
+# Generated experiment and training state
+research/text_to_command/**/*.pkl
+research/text_to_command/**/optimizer.pt
+research/text_to_command/**/rng_state*.pth
+research/text_to_command/**/scheduler.pt
+research/text_to_command/**/training_args.bin
+
+# The archived benchmark observations and paper training log are intentional evidence.
+!research/text_to_command/pre-fine-tuning/**/*.pkl

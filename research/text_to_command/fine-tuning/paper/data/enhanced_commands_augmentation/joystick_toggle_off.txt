@@ -1,0 +1,125 @@
+--- Synonym Replacement ---
+Autonomous mode is on.
+Autopilot mode is active.
+Self-driving mode is enabled.
+Automatic mode is engaged.
+Autonomous driving mode is active.
+Autonomous control is enabled.
+
+Switch to autonomous mode.
+Change to autonomous mode.
+Shift to autonomous mode.
+Toggle to autonomous mode.
+Move to autonomous mode.
+Switch over to autonomous mode.
+
+Joystick control deactivated.
+Joystick control turned off.
+Joystick control disabled.
+Joystick control disengaged.
+Joystick control is off.
+Joystick control has been deactivated.
+
+Now in autonomous driving mode.
+Currently in autonomous driving mode.
+We are now in autonomous driving mode.
+Operating in autonomous driving mode now.
+Autonomous driving mode is engaged now.
+Now running in autonomous driving mode.
+
+Switching to automatic control.
+Changing to automatic control.
+Moving to automatic control.
+Shifting to automatic control.
+Switch over to automatic control.
+Transitioning to automatic control.
+
+--- Paraphrasing ---
+Autonomous mode is on.
+The autonomous mode has been activated.
+Autonomous mode is now active.
+Currently operating in autonomous mode.
+Autonomous mode is engaged now.
+The system is in autonomous mode.
+
+Switch to autonomous mode.
+Please switch to autonomous mode.
+Change control to autonomous mode.
+Shift into autonomous mode now.
+Move to autonomous mode immediately.
+Toggle control to autonomous mode.
+
+Joystick control deactivated.
+Joystick control has been turned off.
+Joystick control is now disabled.
+Joystick control has been disengaged.
+Joystick control is no longer active.
+Joystick control is off.
+
+Now in autonomous driving mode.
+You are now in autonomous driving mode.
+We are currently in autonomous driving mode.
+Operating under autonomous driving mode now.
+Autonomous driving mode is active now.
+Driving mode is now autonomous.
+
+Switching to automatic control.
+Now switching to automatic control.
+Transitioning to automatic control mode.
+Changing to automatic control now.
+Moving control to automatic mode.
+Switch over to automatic control.
+
+--- Word Reordering ---
+Autonomous mode is on.
+Mode autonomous is on.
+
+Switch to autonomous mode.
+To autonomous mode switch.
+
+Joystick control deactivated.
+Control joystick deactivated.
+Deactivated joystick control.
+Deactivated control joystick.
+
+Now in autonomous driving mode.
+In autonomous driving mode now.
+
+Switching to automatic control.
+To automatic control switching.
+
+--- Slight Additions ---
+Autonomous mode is on.
+Autonomous mode is now on.
+Autonomous mode is fully active.
+Autonomous mode is currently enabled.
+The system is in autonomous mode now.
+Autonomous mode has been switched on.
+
+Switch to autonomous mode.
+Please switch to autonomous mode now.
+Switch over to autonomous mode immediately.
+Change control to autonomous mode now.
+Make sure to switch to autonomous mode.
+Toggle control to autonomous mode now.
+
+Joystick control deactivated.
+Joystick control is now deactivated.
+Joystick control has been turned off.
+Please deactivate joystick control.
+Joystick control is fully disabled now.
+Joystick control has been disengaged.
+
+Now in autonomous driving mode.
+You are now in autonomous driving mode.
+Operating in autonomous driving mode now.
+Currently in autonomous driving mode.
+Autonomous driving mode is active now.
+We are now in autonomous driving mode.
+
+Switching to automatic control.
+Switching to automatic control now.
+Now switching to automatic control.
+Make sure to switch to automatic control.
+Change over to automatic control now.
+Transitioning to automatic control mode.

@@ -1,0 +1,143 @@
+--- Synonym Replacement ---
+Increasing speed to one hundred eighty kilometers per hour, 50, INCREASE
+Raising speed to one hundred twenty-six kilometers per hour, 35, INCREASE
+Setting velocity to one hundred forty-four kilometers per hour, 40, CHANGE
+Adjusting speed to one hundred sixty-two kilometers per hour, 45, CHANGE
+Boosting speed to two hundred sixteen kilometers per hour, 60, INCREASE
+Accelerating speed to one hundred eighty-seven kilometers per hour, 52, INCREASE
+
+Decreasing speed to one hundred one kilometers per hour, 28, DECREASE
+Lowering speed to one hundred eight kilometers per hour, 30, DECREASE
+Reducing speed to ninety kilometers per hour, 25, DECREASE
+Slowing down speed to one hundred fifteen kilometers per hour, 32, DECREASE
+Cutting speed to seventy-two kilometers per hour, 20, DECREASE
+Dropping speed to ninety-seven kilometers per hour, 27, DECREASE
+
+Setting speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Assigning speed to one hundred thirty-seven kilometers per hour, 38, CHANGE
+Fixing speed to one hundred fifty-one kilometers per hour, 42, CHANGE
+Placing speed at one hundred sixty-two kilometers per hour, 45, CHANGE
+Setting velocity to one hundred thirty kilometers per hour, 36, CHANGE
+Putting speed at one hundred forty-four kilometers per hour, 40, CHANGE
+
+Set the speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Place speed at one hundred forty-four kilometers per hour, 40, CHANGE
+Assign speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Set velocity to one hundred forty-four kilometers per hour, 40, CHANGE
+Adjust speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Apply speed setting of one hundred forty-four kilometers per hour, 40, CHANGE
+
+Increase speed to two hundred sixteen kilometers per hour, 60, INCREASE
+Boost speed to two hundred thirty-four kilometers per hour, 65, INCREASE
+Raise speed to two hundred sixteen kilometers per hour, 60, INCREASE
+Speed up to two hundred forty-one kilometers per hour, 67, INCREASE
+Enhance speed to two hundred twenty-three kilometers per hour, 62, INCREASE
+Push speed to two hundred sixteen kilometers per hour, 60, INCREASE
+
+--- Paraphrasing ---
+Increasing speed now to one hundred seventy-six kilometers per hour, 50, INCREASE
+Speed increase to one hundred nineteen kilometers per hour, 33, INCREASE
+Set speed now at one hundred forty-four kilometers per hour, 40, CHANGE
+Speed is set to one hundred sixty-two kilometers per hour, 45, CHANGE
+Speed is rising to two hundred sixteen kilometers per hour, 60, INCREASE
+Current speed is increasing to one hundred eighty-four kilometers per hour, 51, INCREASE
+
+Decreasing speed now to ninety-seven kilometers per hour, 27, DECREASE
+Speed lowering to one hundred eight kilometers per hour, 30, DECREASE
+Reduce speed to one hundred four kilometers per hour, 29, DECREASE
+Slow speed to one hundred twenty-two kilometers per hour, 34, DECREASE
+Cut speed to seventy-six kilometers per hour, 21, DECREASE
+Speed is dropping to ninety kilometers per hour, 25, DECREASE
+
+Speed set to one hundred forty-four kilometers per hour, 40, CHANGE
+Speed fixed at one hundred forty kilometers per hour, 39, CHANGE
+Speed assigned as one hundred forty-eight kilometers per hour, 41, CHANGE
+Speed placed at one hundred fifty-five kilometers per hour, 43, CHANGE
+Speed adjusted to one hundred thirty-three kilometers per hour, 37, CHANGE
+Speed confirmed at one hundred forty-four kilometers per hour, 40, CHANGE
+
+Set speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Speed is set to one hundred forty-four kilometers per hour, 40, CHANGE
+Set the velocity to one hundred forty-four kilometers per hour, 40, CHANGE
+Set the speed now to one hundred forty-four kilometers per hour, 40, CHANGE
+Adjust the speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Make sure speed is fixed at one hundred forty-four kilometers per hour, 40, CHANGE
+
+Speed increased to two hundred sixteen kilometers per hour, 60, INCREASE
+Boost speed now to two hundred thirty kilometers per hour, 64, INCREASE
+Speed raised to two hundred sixteen kilometers per hour, 60, INCREASE
+Speed going up to two hundred thirty-six kilometers per hour, 66, INCREASE
+Enhance the speed to two hundred eighteen kilometers per hour, 61, INCREASE
+Speed climbing to two hundred thirty kilometers per hour, 63, INCREASE
+
+--- Word Reordering ---
+Increasing speed to one hundred fifteen kilometers per hour, 32, INCREASE
+Speed increasing to one hundred eighty kilometers per hour, 50, INCREASE
+To one hundred forty-four kilometers per hour speed setting, 40, CHANGE
+Speed to one hundred sixty-two kilometers per hour increasing, 45, INCREASE
+Speed increase to two hundred sixteen kilometers per hour, 60, INCREASE
+Speed raising to one hundred seventy-three kilometers per hour, 48, INCREASE
+
+Decreasing speed to one hundred four kilometers per hour, 29, DECREASE
+Speed decreasing to one hundred eight kilometers per hour, 30, DECREASE
+To ninety-seven kilometers per hour speed lowering, 27, DECREASE
+Speed to seventy-six kilometers per hour cutting, 21, DECREASE
+Speed lowering to ninety kilometers per hour, 25, DECREASE
+Speed reducing to ninety-seven kilometers per hour, 28, DECREASE
+
+Setting speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Speed setting to one hundred forty-four kilometers per hour, 40, CHANGE
+To one hundred fifty-one kilometers per hour speed assigning, 42, CHANGE
+Speed to one hundred sixty-two kilometers per hour placing, 45, CHANGE
+Speed assigning to one hundred thirty-seven kilometers per hour, 38, CHANGE
+Speed set to one hundred forty-four kilometers per hour now, 40, CHANGE
+
+Set the speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Speed set the to one hundred forty-four kilometers per hour, 40, CHANGE
+To one hundred forty-four kilometers per hour speed place, 40, CHANGE
+Speed to one hundred forty-four kilometers per hour adjust, 40, CHANGE
+Adjust speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Speed place at one hundred forty-four kilometers per hour set, 40, CHANGE
+
+Increase speed to two hundred sixteen kilometers per hour, 60, INCREASE
+Speed increase to two hundred thirty-four kilometers per hour, 65, INCREASE
+To two hundred sixteen kilometers per hour speed raise, 60, INCREASE
+Speed raising to two hundred forty-one kilometers per hour, 67, INCREASE
+Speed raised to two hundred twenty-three kilometers per hour, 62, INCREASE
+Speed up to two hundred sixteen kilometers per hour increase, 60, INCREASE
+
+--- Slight Additions ---
+Increasing speed to one hundred eighty kilometers per hour now, 50, INCREASE
+Please increase speed to one hundred nineteen kilometers per hour, 33, INCREASE
+Make sure to set speed at one hundred forty-four kilometers per hour, 40, CHANGE
+Increase speed steadily to one hundred sixty-two kilometers per hour, 45, INCREASE
+Boost speed carefully to two hundred sixteen kilometers per hour, 60, INCREASE
+Kindly accelerate speed to one hundred eighty kilometers per hour now, 50, INCREASE
+
+Decreasing speed now to one hundred eight kilometers per hour, 28, DECREASE
+Please reduce speed to one hundred eight kilometers per hour, 30, DECREASE
+Slow down to one hundred four kilometers per hour speed, 29, DECREASE
+Cut the speed to one hundred twenty-two kilometers per hour, 34, DECREASE
+Lower speed gently to seventy-six kilometers per hour, 21, DECREASE
+Please lower speed carefully to ninety-seven kilometers per hour, 27, DECREASE
+
+Set speed precisely to one hundred forty-four kilometers per hour, 40, CHANGE
+Kindly set speed to one hundred forty kilometers per hour, 39, CHANGE
+Adjust speed now to one hundred forty-eight kilometers per hour, 41, CHANGE
+Set speed carefully at one hundred fifty-five kilometers per hour, 43, CHANGE
+Please adjust speed to one hundred thirty-three kilometers per hour, 37, CHANGE
+Please fix speed exactly at one hundred forty-four kilometers per hour, 40, CHANGE
+
+Set the speed exactly to one hundred forty-four kilometers per hour, 40, CHANGE
+Make sure to set speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Please place speed at one hundred forty-four kilometers per hour, 40, CHANGE
+Adjust speed carefully to one hundred forty-four kilometers per hour, 40, CHANGE
+Kindly set speed to one hundred forty-four kilometers per hour, 40, CHANGE
+Ensure speed is steady at one hundred forty-four kilometers per hour, 40, CHANGE
+
+Increase speed to two hundred sixteen kilometers per hour steadily, 60, INCREASE
+Please boost speed to two hundred thirty kilometers per hour, 64, INCREASE
+Carefully increase speed to two hundred sixteen kilometers per hour, 60, INCREASE
+Raise speed slowly to two hundred thirty-six kilometers per hour, 66, INCREASE
+Enhance speed carefully to two hundred eighteen kilometers per hour, 61, INCREASE
+Boost speed steadily to two hundred thirty kilometers per hour, 63, INCREASE

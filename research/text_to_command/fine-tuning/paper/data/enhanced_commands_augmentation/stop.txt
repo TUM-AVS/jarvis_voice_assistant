@@ -1,0 +1,135 @@
+--- Synonym Replacement ---
+We are sending a stop request.
+We are sending a halt request.
+We are sending a cease request.
+We are sending a pause request.
+We are sending a termination request.
+We are sending a break request.
+
+Stop the car.
+Halt the car.
+Cease the car.
+Bring the car to a stop.
+Pause the car.
+Freeze the car.
+
+Please stop.
+Kindly stop.
+Please halt.
+Please cease.
+Please pause.
+Kindly bring to a stop.
+
+Stop Request.
+Halt Request.
+Cease Request.
+Pause Request.
+Termination Request.
+Break Request.
+
+Halt immediately!
+Stop at once!
+Cease immediately!
+Pause immediately!
+Bring to a stop now!
+Freeze immediately!
+
+--- Paraphrasing ---
+We are sending a stop request.
+A stop request is being sent.
+Sending the command to stop.
+Stop request has been issued.
+We have dispatched a stop request.
+Stop request is on its way.
+
+Stop the car.
+Please bring the car to a stop.
+Stop the vehicle now.
+Kindly stop the car immediately.
+Halt the car right away.
+Stop the car without delay.
+
+Please stop.
+Kindly bring it to a stop.
+Please cease immediately.
+Stop now, please.
+Halt now, please.
+Please pause.
+
+Stop Request.
+Request to stop.
+Command to stop.
+Order to stop.
+Stop order issued.
+Stop command sent.
+
+Halt immediately!
+Stop right now!
+Cease at once!
+Bring to a halt immediately!
+Freeze right away!
+Stop without delay!
+
+--- Word Reordering ---
+We are sending a stop request.
+A stop request we are sending.
+
+Stop the car.
+The car stop.
+
+Please stop.
+Stop please.
+Please do stop.
+Stop, please.
+Do stop please.
+Please halt now.
+
+Stop Request.
+Request stop.
+Stop command request.
+Request for stop.
+Command stop request.
+Stop request command.
+
+Halt immediately!
+Immediately halt!
+Halt now immediately!
+Immediately stop!
+Stop immediately!
+Now halt immediately!
+
+--- Slight Additions ---
+We are sending a stop request.
+Please send a stop request now.
+Sending a stop request immediately.
+Make sure to send the stop request.
+Initiate sending a stop request.
+Send the stop request without delay.
+
+Stop the car.
+Please stop the car now.
+Go ahead and stop the car.
+Bring the car to a stop immediately.
+Stop the car without hesitation.
+Stop the car right away.
+
+Please stop.
+Kindly stop now, please.
+Please halt immediately.
+Stop as soon as possible, please.
+Please stop without delay.
+Stop now, please.
+
+Stop Request.
+Please issue a stop request now.
+Send the stop request immediately.
+Make sure to send the stop request.
+Initiate the stop request now.
+Stop request sent without delay.
+
+Halt immediately!
+Please halt immediately!
+Stop right now, immediately!
+Bring to a halt without delay!
+Freeze immediately, please!
+Halt at once, please!

@@ -1,0 +1,126 @@
+--- Synonym Replacement ---
+Sending a start request.
+Sending a begin request.
+Sending a launch request.
+Sending a kickoff request.
+Sending a commencement request.
+Sending an initiation request.
+
+Start moving.
+Begin moving.
+Commence moving.
+Initiate movement.
+Get moving.
+Get going.
+
+Car starts going.
+Vehicle begins moving.
+Car begins to move.
+Vehicle starts driving.
+Car initiates motion.
+Car starts rolling.
+
+Start driving.
+Begin driving.
+Commence driving.
+Initiate driving.
+Get driving.
+Get behind the wheel.
+
+Let's go.
+Let us go.
+Time to go.
+Let’s move.
+Off we go.
+Let’s get started.
+
+--- Paraphrasing ---
+Sending a start request.
+A request to start is being sent.
+Initiating a start request now.
+The start request is dispatched.
+Sending the command to start.
+Start request has been sent.
+
+Start moving.
+Begin to move now.
+It’s time to start moving.
+Please start moving.
+Start moving without delay.
+Go ahead and start moving.
+
+Car starts going.
+The car is starting to move.
+Vehicle is beginning to go.
+Car initiates movement now.
+Car has started moving.
+The car starts driving.
+
+Start driving.
+Begin driving now.
+Please start driving.
+Start the driving process.
+Commence driving immediately.
+Drive off now.
+
+Let's go.
+We are ready to go.
+Let’s get going now.
+Time to get started.
+Let’s begin moving.
+Let’s proceed.
+
+--- Word Reordering ---
+Sending a start request.
+A start request sending.
+
+Start moving.
+Start to move.
+
+Car starts going.
+
+Start driving.
+Driving start.
+Start to drive.
+To drive start.
+Drive start.
+
+Let's go.
+Let’s go now.
+Let’s now go.
+
+--- Slight Additions ---
+Sending a start request.
+Please send a start request now.
+Sending a start request immediately.
+Make sure to send a start request.
+Initiate sending a start request.
+Send the start request without delay.
+
+Start moving.
+Please start moving now.
+Go ahead and start moving.
+Begin moving immediately.
+Start moving without hesitation.
+Move now and start.
+
+Car starts going.
+The car starts moving now.
+Car begins going immediately.
+Vehicle starts to go now.
+Car is starting to move.
+Car starts going without delay.
+
+Start driving.
+Please start driving now.
+Begin driving immediately.
+Go ahead and start driving.
+Start driving without delay.
+Drive now and begin.
+
+Let's go.
+Let’s go right now.
+It’s time to go.
+Please let’s go now.
+Let’s get going immediately.
+Let’s start moving now.

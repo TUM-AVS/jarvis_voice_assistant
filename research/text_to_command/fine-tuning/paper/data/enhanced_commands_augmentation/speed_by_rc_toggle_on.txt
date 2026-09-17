@@ -1,0 +1,135 @@
+--- Synonym Replacement ---
+Speed is received by race control.
+Velocity is received by race control.
+Pace is received by race control.
+Speed data is received by race control.
+Speed information is received by race control.
+Speed reports are received by race control.
+
+Car abides to speeds from race control.
+Car complies with speeds from race control.
+Vehicle obeys speeds from race control.
+Car follows speeds issued by race control.
+Car respects speeds from race control.
+Car observes speeds from race control.
+
+Adhere to race control speeds.
+Follow the speeds from race control.
+Comply with race control speeds.
+Stick to race control speeds.
+Observe the speeds set by race control.
+Keep to the race control speeds.
+
+Follow the speed limits set by race control.
+Observe the speed limits established by race control.
+Comply with speed limits set by race control.
+Abide by the speed restrictions from race control.
+Keep to the speed limits dictated by race control.
+Respect the speed limits set by race control.
+
+Maintain the speed as directed by race control.
+Keep the speed as instructed by race control.
+Hold the speed as ordered by race control.
+Sustain the speed as commanded by race control.
+Preserve the speed as told by race control.
+Maintain speed according to race control’s directions.
+
+--- Paraphrasing ---
+Speed is received by race control.
+Race control obtains the speed information.
+The speed is communicated to race control.
+Race control receives speed updates.
+Speed data is sent to race control.
+Speed information is passed on to race control.
+
+Car abides to speeds from race control.
+The car follows the speeds provided by race control.
+The vehicle obeys the speed instructions from race control.
+Car maintains speeds as given by race control.
+The car complies with the speed directions from race control.
+Car respects the speed orders from race control.
+
+Adhere to race control speeds.
+Make sure to follow the speeds set by race control.
+Stick to the speed guidelines from race control.
+Observe the speed instructions from race control.
+Keep within the speeds indicated by race control.
+Follow the speed regulations from race control.
+
+Follow the speed limits set by race control.
+Keep to the speed limits assigned by race control.
+Observe the speed restrictions imposed by race control.
+Adhere to the speed limits mandated by race control.
+Drive within the limits established by race control.
+Obey the speed limits given by race control.
+
+Maintain the speed as directed by race control.
+Keep your speed according to race control’s instructions.
+Hold the speed as race control commands.
+Stay at the speed level set by race control.
+Keep the pace as directed by race control.
+Continue at the speed prescribed by race control.
+
+--- Word Reordering ---
+Speed is received by race control.
+By race control, speed is received.
+Speed, by race control, is received.
+The speed is received by race control.
+
+Car abides to speeds from race control.
+To speeds from race control, car abides.
+Speeds from race control are abided to by car.
+The car abides to speeds from race control.
+
+Adhere to race control speeds.
+To race control speeds, adhere.
+Speeds from race control, adhere to.
+Adhere, to race control speeds.
+To speeds set by race control, adhere.
+Adhere to the speeds from race control.
+
+Follow the speed limits set by race control.
+The speed limits set by race control, follow.
+Follow the limits of speed set by race control.
+Speed limits set by race control, follow.
+Follow the speed limits set by race control.
+
+Maintain the speed as directed by race control.
+Maintain the speed, as race control directs.
+Maintain the speed as race control has directed.
+
+--- Slight Additions ---
+Speed is received by race control.
+Speed is received by race control at all times.
+Speed is regularly received by race control.
+Ensure speed is received by race control.
+Speed is constantly received by race control.
+Make sure speed is correctly received by race control.
+
+Car abides to speeds from race control.
+The car always abides to speeds from race control.
+Make sure the car abides to speeds from race control.
+Car abides to the assigned speeds from race control.
+Car strictly abides to speeds from race control.
+Be certain the car abides by race control speeds.
+
+Adhere to race control speeds.
+Always adhere to race control speeds carefully.
+Please adhere to race control speeds at all times.
+Make sure to adhere to the speeds from race control.
+It’s important to adhere to race control speeds.
+Ensure full adherence to race control speeds.
+
+Follow the speed limits set by race control.
+Follow the speed limits set by race control closely.
+Always follow the speed limits set by race control.
+Make sure to follow the speed limits set by race control.
+Follow the speed limits set by race control without fail.
+Strictly follow the speed limits set by race control.
+
+Maintain the speed as directed by race control.
+Maintain the speed exactly as directed by race control.
+Please maintain the speed as directed by race control.
+It’s crucial to maintain the speed as directed by race control.
+Maintain the speed carefully as directed by race control.
+Keep the speed steady as instructed by race control.

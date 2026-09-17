@@ -1,0 +1,143 @@
+--- Synonym Replacement ---
+Flags from race control are disabled.
+Signals from race control are disabled.
+Race control flag signals are turned off.
+Race control’s flags are deactivated.
+Flag indications from race control are disabled.
+Race control no longer sends flag signals.
+
+Driver or team manages flag information.
+The driver or team controls flag data.
+Flag information is managed by driver or team.
+Driver or team handles flag signals.
+Flag control is done by driver or team.
+Driver or team takes care of flag info.
+
+Race control no longer sets flags for the vehicle.
+Race control does not assign vehicle flags anymore.
+Vehicle flags are no longer set by race control.
+Race control stopped setting vehicle flags.
+Race control has ceased flag assignment for the vehicle.
+Flags for the vehicle are no longer controlled by race control.
+
+Switch to basestation flags.
+Change to basestation flags.
+Switch over to basestation flag control.
+Use basestation flags instead.
+Move to basestation flag management.
+Toggle to basestation flags.
+
+The driver or team now manages flag control.
+Flag control is now handled by the driver or team.
+Driver or team currently manages flag control.
+The driver or team takes over flag management.
+Flag management is done by driver or team now.
+Flag control responsibility is with driver or team.
+
+--- Paraphrasing ---
+Flags from race control are disabled.
+Race control flags are currently disabled.
+No flags are being sent by race control.
+Race control no longer provides flag signals.
+Flag signals from race control have been switched off.
+Race control has disabled flag signaling.
+
+Driver or team manages flag information.
+Flag information is under the control of the driver or team.
+The driver or team oversees flag data.
+Driver or team now handles all flag info.
+Flag info is managed by driver or team.
+The team or driver takes care of flag signals.
+
+Race control no longer sets flags for the vehicle.
+Vehicle flags are no longer controlled by race control.
+Race control does not set vehicle flags anymore.
+The vehicle flags are managed outside race control.
+Race control has stopped setting flags for the vehicle.
+Flag setting for the vehicle is no longer done by race control.
+
+Switch to basestation flags.
+Please switch to basestation flags.
+Use the flags controlled by the basestation.
+Switch your system to basestation flags.
+Change to flags coming from the basestation.
+Adopt the basestation flags now.
+
+The driver or team now manages flag control.
+Flag control is now with the driver or team.
+The driver or team is responsible for flag control now.
+The driver or team has taken over flag management.
+Flag control duties now belong to driver or team.
+Flag management responsibility is with driver or team.
+
+--- Word Reordering ---
+Flags from race control are disabled.
+Disabled are flags from race control.
+From race control, flags are disabled.
+Race control flags are disabled.
+Flags disabled from race control.
+Race control has disabled flags.
+
+Driver or team manages flag information.
+Flag information is managed by driver or team.
+Driver or team manages the flag information.
+Managed by driver or team is flag information.
+Flag info is controlled by driver or team.
+The driver or team manages flags.
+
+Race control no longer sets flags for the vehicle.
+No longer sets race control flags for the vehicle.
+Race control no longer sets vehicle flags.
+For the vehicle, race control no longer sets flags.
+Flags for vehicle are no longer set by race control.
+Race control stopped setting flags for the vehicle.
+
+Switch to basestation flags.
+Switch to flags from basestation.
+Basestation flags, switch to them.
+To basestation flags, switch.
+Switch over to basestation flags.
+Flags switch to basestation.
+
+The driver or team now manages flag control.
+Flag control now managed by driver or team.
+The driver or team manages flag control now.
+Managed now by driver or team is flag control.
+Flag control is now with the driver or team.
+Driver or team controls flag management now.
+
+--- Slight Additions ---
+Flags from race control are disabled.
+Flags from race control are now disabled.
+Race control flags are currently disabled.
+Please note, flags from race control are disabled.
+Race control no longer sends flags.
+Flags from race control have been disabled.
+
+Driver or team manages flag information.
+Flag information is now managed by driver or team.
+The driver or team currently manages flag info.
+Please note that driver or team handles flag info.
+Driver or team takes over flag management.
+Flag information is controlled by driver or team.
+
+Race control no longer sets flags for the vehicle.
+Race control no longer sets flags for the vehicle currently.
+Vehicle flags are now managed outside race control.
+Please be aware race control stopped flag setting.
+The vehicle’s flags are no longer set by race control.
+Race control has ceased managing vehicle flags.
+
+Switch to basestation flags.
+Switch immediately to basestation flags.
+Please switch to basestation flags now.
+Drivers should switch to basestation flags.
+Switch your system over to basestation flags.
+Use basestation flags from now on.
+
+The driver or team now manages flag control.
+Flag control is now managed by driver or team.
+The driver or team is responsible for flag control now.
+Drivers should note that driver or team manages flags.
+Flag control duties now rest with driver or team.
+Driver or team is now in charge of flag control.

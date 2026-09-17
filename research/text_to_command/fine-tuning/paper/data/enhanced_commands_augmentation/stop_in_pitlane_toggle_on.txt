@@ -1,0 +1,135 @@
+--- Synonym Replacement ---
+Send a pitlane request and stop in pitlane.
+Dispatch a pitlane request and halt in pitlane.
+Transmit a pitlane order and stop in pitlane.
+Issue a pitlane command and cease in pitlane.
+Send a pitlane signal and pause in pitlane.
+Forward a pitlane request and park in pitlane.
+
+Box and stop this lap.
+Pit and halt this lap.
+Box and pause this round.
+Enter the pits and stop this lap.
+Head into the box and halt this lap.
+Go to the box and stop this lap.
+
+Entering the pits and stopping this lap.
+Going into the pits and halting this lap.
+Entering the garage and stopping this lap.
+Heading into the pits and pausing this lap.
+Approaching the pitlane and stopping this lap.
+Entering the pit area and stopping this round.
+
+Stop in the pitlane.
+Halt in the pitlane.
+Cease in the pitlane.
+Pause in the pitlane.
+Park in the pitlane.
+Brake in the pitlane.
+
+Pull into the pitlane and stop.
+Enter the pitlane and halt.
+Drive into the pitlane and stop.
+Head into the pitlane and cease.
+Steer into the pitlane and park.
+Pull into the pit area and stop.
+
+--- Paraphrasing ---
+Send a pitlane request and stop in pitlane.
+Make a pitlane request and bring the car to a stop there.
+Request pit access and stop when you're in.
+Communicate pit entry and come to a halt in the lane.
+Notify for a pitstop and stop in the pitlane.
+Ask to enter the pitlane and stop once in.
+
+Box and stop this lap.
+Pit in and stop during this lap.
+Come into the pits and stop this time around.
+Make a pit stop now.
+Head to the pits and stop on this lap.
+Pit on this lap and halt the car.
+
+Entering the pits and stopping this lap.
+Going into the pits now and stopping.
+Coming into the pit area and halting this lap.
+Entering the lane and stopping the car now.
+Approaching the pits and will stop this lap.
+Making a pit entry and stopping on this lap.
+
+Stop in the pitlane.
+Bring the car to a halt in the pitlane.
+Stop your vehicle in the pit area.
+Come to a full stop in the pits.
+Halt inside the pitlane.
+Make sure to stop in the lane.
+
+Pull into the pitlane and stop.
+Drive into the pit area and come to a halt.
+Enter the pitlane and stop the car.
+Pull in and stop once inside.
+Approach the pitlane and stop when you're in.
+Get into the pitlane and halt.
+
+--- Word Reordering ---
+Send a pitlane request and stop in pitlane.
+Request a pitlane and stop in pitlane.
+Send a request for pitlane and stop there.
+A pitlane request send and stop in pitlane.
+
+Box and stop this lap.
+Stop this lap and box.
+Box this lap and stop.
+This lap, stop and box.
+On this lap, stop and box.
+
+Entering the pits and stopping this lap.
+Stopping this lap and entering the pits.
+Entering and stopping the pits this lap.
+This lap, stopping and entering the pits.
+The pits are being entered and stopped this lap.
+Entering the pits, this lap stopping.
+
+Stop in the pitlane.
+In the pitlane, stop.
+Stop in pitlane, now.
+
+Pull into the pitlane and stop.
+Stop after pulling into the pitlane.
+Into the pitlane, pull and stop.
+The pitlane, pull into and stop.
+
+--- Slight Additions ---
+Send a pitlane request and stop in pitlane.
+Send a pitlane request now and stop in pitlane.
+Make sure to send a pitlane request and stop in pitlane.
+Send a request for pitlane entry and stop immediately.
+Quickly send a pitlane request and stop.
+Send a pitlane request, then stop once inside.
+
+Box and stop this lap.
+Box and stop this lap as instructed.
+Be sure to box and stop this lap.
+This lap, box and stop right away.
+Get ready to box and stop this lap.
+Box this lap and come to a complete stop.
+
+Entering the pits and stopping this lap.
+Entering the pits and stopping this lap as planned.
+You're entering the pits and stopping this lap.
+Confirm you're entering the pits and stopping this lap.
+Entering the pit area and stopping this lap now.
+Proceed by entering the pits and stopping this lap.
+
+Stop in the pitlane.
+Stop in the pitlane when you arrive.
+Make sure to stop in the pitlane.
+Come to a stop in the pitlane at the marker.
+Stop in the designated pitlane area.
+Stop in the pitlane, don't overshoot.
+
+Pull into the pitlane and stop.
+Pull into the pitlane and stop at your mark.
+Carefully pull into the pitlane and come to a stop.
+Pull into the pitlane, then stop completely.
+Slow down, pull into the pitlane, and stop.
+Pull into the pitlane and stop exactly on your spot.

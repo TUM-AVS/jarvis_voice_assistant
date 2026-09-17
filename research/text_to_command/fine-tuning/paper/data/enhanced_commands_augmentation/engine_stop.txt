@@ -1,0 +1,127 @@
+--- Synonym Replacement ---
+Shut off the engine.
+Turn off the engine.
+Switch off the engine.
+Power off the engine.
+Deactivate the engine.
+Kill the engine.
+
+Stop the engine.
+Halt the engine.
+Cease the engine.
+Cut off the engine.
+Bring the engine to a stop.
+Turn the engine off.
+
+Shut down the engine.
+Power down the engine.
+Switch down the engine.
+Turn down the engine.
+Deactivate the engine now.
+Stop the engine operation.
+
+Turn off the engine now.
+Switch off the engine now.
+Power off the engine now.
+Deactivate the engine immediately.
+Stop the engine right now.
+Turn the engine off immediately.
+
+Power down the engine.
+Power off the engine.
+Shut down the engine.
+Deactivate the engine.
+Turn off engine power.
+Cut power to the engine.
+
+--- Paraphrasing ---
+Shut off the engine.
+Please shut off the engine now.
+Turn the engine off completely.
+Make sure to shut off the engine.
+Deactivate the engine by shutting it off.
+Shut off the engine without delay.
+
+Stop the engine.
+Please stop the engine now.
+Cease operation of the engine.
+Bring the engine to a stop.
+Stop the engine immediately.
+Halt the engine as soon as possible.
+
+Shut down the engine.
+Power down the engine now.
+Switch off the engine to shut it down.
+Turn off the engine to shut it down.
+Make sure to shut down the engine.
+Shut down the engine without delay.
+
+Turn off the engine now.
+Please turn off the engine now.
+Switch off the engine right now.
+Power off the engine immediately.
+Deactivate the engine at once.
+Turn the engine off immediately.
+
+Power down the engine.
+Power off the engine now.
+Shut down the engine completely.
+Turn off engine power now.
+Cut power to the engine immediately.
+Deactivate engine power.
+
+--- Word Reordering ---
+Shut off the engine.
+The engine shut off.
+Shut the engine off.
+
+Stop the engine.
+The engine stop.
+
+Shut down the engine.
+The engine shut down.
+Shut the engine down.
+
+Turn off the engine now.
+Now turn off the engine.
+Turn the engine off now.
+
+Power down the engine.
+The engine power down.
+Power the engine down.
+
+--- Slight Additions ---
+Shut off the engine.
+Please shut off the engine now.
+Go ahead and shut off the engine.
+Make sure to shut off the engine.
+Shut off the engine immediately.
+Shut off the engine without delay.
+
+Stop the engine.
+Please stop the engine now.
+Stop the engine right away.
+Make sure to stop the engine.
+Stop the engine immediately.
+Bring the engine to a stop now.
+
+Shut down the engine.
+Please shut down the engine now.
+Shut down the engine immediately.
+Make sure to shut down the engine.
+Go ahead and shut down the engine.
+Shut down the engine without delay.
+
+Turn off the engine now.
+Please turn off the engine now.
+Turn off the engine immediately.
+Make sure to turn off the engine.
+Turn off the engine right away.
+Deactivate the engine now.
+
+Power down the engine.
+Please power down the engine now.
+Power down the engine immediately.
+Make sure to power down the engine.
+Power down the engine without delay.
+Cut power to the engine now.

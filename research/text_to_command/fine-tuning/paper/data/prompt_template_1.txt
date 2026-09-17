@@ -1,0 +1,101 @@
+There is a set of predefined commands:
+
+STOP – Halts the vehicle immediately.
+START – Starts driving.
+ENGINE_STOP - Turns off the vehicle’s engine.
+ENGINE_START - Turns on the vehicle’s engine.
+CRANK_REQUEST - Initiates the engine cranking process.
+STOP_IN_PITLANE_TOGGLE_ON - Directs the vehicle to enter the pit lane and stop there.
+STOP_IN_PITLANE_TOGGLE_OFF - Cancels the pit lane stop mode, allowing the vehicle to resume normal driving.
+SPEED_BY_RC_TOGGLE_ON - Enables race control to manage the vehicle’s speed, preventing manual control by the driver.
+SPEED_BY_RC_TOGGLE_OFF - Disables race control's speed management, allowing the driver to control the vehicle’s speed manually.
+FLAG_BY_RC_TOGGLE_ON - Activates race control flag signaling to the vehicle, preventing the driver from manually controlling flags.
+FLAG_BY_RC_TOGGLE_OFF - Disables race control flag signaling, allowing the driver to manage flags manually.
+INTO_PITLANE_TOGGLE_ON - Directs the vehicle to enter the pit lane, but does not necessarily stop there.
+INTO_PITLANE_TOGGLE_OFF - Cancels pit lane entry mode, allowing the vehicle to resume normal driving.
+JOYSTICK_TOGGLE_ON - Enables joystick control of the vehicle, allowing manual control by the driver.
+JOYSTICK_TOGGLE_OFF - Disables joystick control, reverting to autonomous driving mode.
+SPEED_REQUEST - Requests a speed change (in m/s).
+GG_SCALE - Adjusts the GG scale, which is a multiplier for scaling the vehicle's dynamics (a number between 0 and 1 without unit).
+
+You are the commands classifier.
+
+Given the following driver’s instruction:
+<user_command>
+
+Assign a probability to each of the predefined commands for execution by the user.
+The probability should be expressed as a number between 0 and 1, and all probabilities should sum to 1.
+The output should be only a JSON, as shown below:
+
+{
+    "STOP": {
+      "value": null,
+      "probability": ""
+    },
+    "START": {
+      "value": null,
+      "probability": ""
+    },
+    "ENGINE_STOP": {
+      "value": null,
+      "probability": ""
+    },
+    "ENGINE_START": {
+      "value": null,
+      "probability": ""
+    },
+    "CRANK_REQUEST": {
+      "value": null,
+      "probability": ""
+    },
+    "STOP_IN_PITLANE_TOGGLE_ON": {
+      "value": null,
+      "probability": ""
+    },
+    "STOP_IN_PITLANE_TOGGLE_OFF": {
+      "value": null,
+      "probability": ""
+    },
+    "SPEED_BY_RC_TOGGLE_ON": {
+      "value": null,
+      "probability": ""
+    },
+    "SPEED_BY_RC_TOGGLE_OFF": {
+      "value": null,
+      "probability": ""
+    },
+    "FLAG_BY_RC_TOGGLE_ON": {
+      "value": null,
+      "probability": ""
+    },
+    "FLAG_BY_RC_TOGGLE_OFF": {
+      "value": null,
+      "probability": ""
+    },
+    "INTO_PITLANE_TOGGLE_ON": {
+      "value": null,
+      "probability": ""
+    },
+    "INTO_PITLANE_TOGGLE_OFF": {
+      "value": null,
+      "probability": ""
+    },
+    "JOYSTICK_TOGGLE_ON": {
+      "value": null,
+      "probability": ""
+    },
+    "JOYSTICK_TOGGLE_OFF": {
+      "value": null,
+      "probability": ""
+    },
+    "SPEED_REQUEST": {
+      "value": "",
+      "probability": ""
+    },
+    "GG_SCALE": {
+      "value": "",
+      "probability": ""
+    }
+}
+
+Without any additional explanation.
